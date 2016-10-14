@@ -1,0 +1,57 @@
+/*
+	Team R^2
+	Rina Narciso
+	Rosanne Wong
+	IAT 339 D101 - P02 Company
+*/
+
+/* All objects use the border-box model (not the content-box model) */
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+/* Apply the styling if item starts with 'grid-col-' */
+[class^='grid-col-'] {
+	float: left;
+	padding: 0;
+}
+
+/* Defining the column widths */
+.grid-col-1of8 {
+	width: 12.5%;
+}
+
+.grid-col-2of8 {
+	width: 25%;
+}
+
+.grid-col-3of8 {
+	width: 37.5%;
+}
+
+.grid-col-4of8 {
+	width: 50%;
+}
+
+.grid-col-5of8 {
+	width: 62.5%;
+}
+
+.grid-col-6of8 {
+	width: 75%;
+}
+
+.grid-col-7of8 {
+	width: 87.5%;
+}
+
+.grid-col-8of8 {
+	width: 100%;
+}
+
+/* Clear floated items */
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}

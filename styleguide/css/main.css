@@ -1,0 +1,441 @@
+/*
+	Team R^2
+	Rina Narciso
+	Rosanne Wong
+	IAT 339 D101 - P02 Company
+*/
+
+body {
+	font-family: "Raleway", Arial, sans-serif;
+	margin: 0 auto;
+	color: #565a5b;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	font-size: 0.9em;
+}
+
+section {
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 70rem;
+	border-bottom: 1px solid #d8d8d8;
+	padding: 2em 0;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 1.7em;
+	letter-spacing: 0.04em;
+}
+
+.selector {
+	font-weight: 700;
+}
+
+code {
+	background: #f5f5f5;
+	border-radius: 3px;
+	margin: 2.5em 0;
+	padding: 0.5em 1em;
+	display: block;
+	text-align: left;
+	font-weight: 300;
+}
+
+a, a:hover {
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+
+/* Title */
+.main-title {
+	text-align: center;
+}
+
+
+/* Colors */
+#bg-chocolate, #bg-mustard, #bg-kraft, #bg-cream,
+#bg-night, #bg-slate, #bg-smoke, #bg-fog {
+	padding: 1.5em 1em;
+	margin: 0.5em 0;
+	color: #fff;
+	font-weight: 300;
+}
+
+#bg-chocolate {
+	background-color: #604743;
+}
+
+#bg-mustard {
+	background-color: #C49A2C;
+}
+
+#bg-kraft {
+	background-color: #D0B7A4;
+}
+
+#bg-cream {
+	background-color: #F3EEDB;
+	color: #604743;
+}
+
+#bg-night {
+	background-color: #363634;
+}
+
+#bg-slate {
+	background-color: #565a5b;
+}
+
+#bg-smoke {
+	background-color: #9fa2a3;
+}
+
+#bg-fog {
+	background-color: #d8d8d8;
+	color: #565a5b;
+}
+
+
+/* Navigation button */
+a.nav-main {
+	color: #363634;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+a.nav-main:hover {
+	color: #C49A2C;
+	text-decoration: none;	
+}
+
+
+/* Text */
+a {
+	color: #D0B7A4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Breadcrumbs */
+.breadcrumbs, .breadcrumbs a, .breadcrumbs a:hover {
+	color: #565a5b;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+.breadcrumbs strong {
+	color: #D0B7A4;
+	font-size: 0.9em;
+}
+
+
+/* Text input fields */
+#text-input {
+	background: #fff url("../img/icon-right.png") no-repeat 98% 50%;
+	padding: 1em;
+	width: 300px;
+	font-size: 0.9em;
+	font-family: "Raleway", Arial, sans-serif;
+	letter-spacing: 0.02em;
+	border: 1px solid #d8d8d8;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
+
+#text-input:focus{
+	border: 1px solid #565a5b;
+	outline: none;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
+
+
+/* Buttons */
+.btn-mustard, .btn-kraft, .btn-cream {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background-color: #fff;
+	padding: 0.9em 2em;
+	margin-right: 1em;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.btn-mustard {
+	background-color: #fff;
+	color: #C49A2C;
+	border: 2px solid #C49A2C;
+}
+
+.btn-mustard:hover {
+	background-color: #C49A2C;
+	color: #fff;
+	text-decoration: none;	
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.btn-kraft {
+	background-color: #fff;
+	color: #D0B7A4;
+	border: 2px solid #D0B7A4;
+}
+
+.btn-kraft:hover {
+	background-color: #D0B7A4;
+	color: #fff;
+	text-decoration: none;	
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.btn-cream {
+	background-color: #fff;
+	color: #604743;
+	border: 2px solid #F3EEDB;
+}
+
+.btn-cream:hover {
+	background-color: #F3EEDB;
+	color: #604743;
+	border: 2px solid #F3EEDB;
+	text-decoration: none;	
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+
+/* Form buttons */
+button[type=submit] {
+	font-weight: 700;
+	color: #C49A2C;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 2px solid #C49A2C;
+	background-color: #fff;
+	padding: 0.9em 2em;
+	margin-right: 1em;
+	font-family: "Raleway", Arial, sans-serif;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+button[type=submit]:hover {
+	border: 2px solid #C49A2C;
+	background-color: #C49A2C;
+	color: #fff;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+button[type=reset] {
+	font-weight: 400;
+	font-size: 0.9em;
+	letter-spacing: 0.02em;
+	color: #565a5b;
+	background-color: transparent;
+	border: none;
+	font-family: "Raleway", Arial, sans-serif;
+}
+
+button[type=reset]:hover {
+	color: #9fa2a3;
+}
+
+
+/* Headings */
+h1, h2, h3, h5 {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2.1em;
+	letter-spacing: 0.04em;
+}
+
+h3 {
+	letter-spacing: 0.03em;	
+}
+
+h4 {
+	font-size: 0.9em;
+	color: #9fa2a3;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 0.7em;
+	color: #9fa2a3;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+
+/* Paragraphs */
+p {
+	line-height: 1.5em;	
+}
+
+
+/* Lists */
+#numbered-list {
+	padding-right: 1em;
+}
+
+#bulleted-list {
+	padding-left: 1em;
+}
+
+
+/* Main navigation */
+header {
+	background-color: #fff;
+	padding: 1em 2em;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.logo {
+	margin: 0.8em 3em 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+header nav {
+	clear: right;
+	vertical-align: middle;
+}
+
+li.nav-main, li.nav-main a {
+	list-style-type: none;
+	padding: 0 0.8em;
+}
+
+header nav ul li, header nav ul a {
+	display: inline;
+	color: #363634;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+	color: #C49A2C;
+	text-decoration: none;
+}
+
+.nav-cart, .nav-cart a {
+	float: right;
+	padding-left: 0.5em;
+	vertical-align: middle;
+}
+
+.nav-cart img {
+	clear: right;
+	vertical-align: middle;
+}
+
+
+/* Footer */
+footer {
+	background: #f5f5f5;
+	text-align: center;
+	display: block;
+	padding: 1em;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+}
+
+footer img {
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+footer img:hover {
+	opacity: 0.6; 
+	filter: alpha(opacity=60);
+}
+
+footer span {
+	display: block;
+	padding: 2em 0 1em;
+}
+
+
+/* Product listing */
+.grid-col-2of8.listing img {
+	max-width: 100%;
+	padding-bottom: 1em;
+	display: block;
+
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.grid-col-2of8.listing img:hover {
+	opacity: 0.6; 
+	filter: alpha(opacity=60);
+}
+
+.grid-col-2of8.listing {
+	padding: 1em;
+	text-align: center;
+	color: #9FA2A3;
+}
+
+.grid-col-2of8.listing a {
+	color: #363634;
+	font-weight: 400;
+	line-height: 2em;
+}
+
+.grid-col-2of8.listing a:hover {
+	color: #C49A2C;
+	text-decoration: none;
+}
+
+
+/* Grids */
+.grid-col-2of8.style, .grid-col-3of8.style, 
+.grid-col-4of8.style, .grid-col-5of8.style {
+	padding: 1.5em 0.5em;
+	margin: 0.5em 0;
+	background-color: #d8d8d8;
+
+	text-align: center;	
+	border: solid 2px #fff;
+}
