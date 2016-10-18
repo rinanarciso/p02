@@ -1,0 +1,208 @@
+/*
+	Team R^2
+	Rina Narciso
+	Rosanne Wong
+	IAT 339 D101 - P02 Company
+*/
+
+body {
+	font-family: "Raleway", Arial, sans-serif;
+	margin: 0 auto;
+	color: #565a5b;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	font-size: 0.9em;
+}
+
+section {
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 70rem;
+	padding: 2em 0;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 1.7em;
+	letter-spacing: 0.04em;
+}
+
+.selector {
+	font-weight: 700;
+}
+
+code {
+	background: #f5f5f5;
+	border-radius: 3px;
+	margin: 2.5em 0;
+	padding: 0.5em 1em;
+	display: block;
+	text-align: left;
+	font-weight: 300;
+}
+
+a, a:hover {
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+
+/* Title */
+.main-title {
+	text-align: center;
+}
+
+
+/* Text */
+a {
+	color: #D0B7A4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Headings */
+h1, h2, h3, h5 {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2.1em;
+	letter-spacing: 0.04em;
+}
+
+h3 {
+	letter-spacing: 0.03em;	
+}
+
+h4 {
+	font-size: 0.9em;
+	color: #9fa2a3;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 0.7em;
+	color: #9fa2a3;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+
+/* Paragraphs */
+p {
+	line-height: 1.5em;	
+}
+
+
+/* Main navigation */
+header {
+	background-color: #fff;
+	padding: 1em 2em;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.logo {
+	margin: 0.8em 3em 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+header nav {
+	clear: right;
+	vertical-align: middle;
+}
+
+li.nav-main, li.nav-main a {
+	list-style-type: none;
+	padding: 0 0.8em;
+}
+
+header nav ul li, header nav ul a {
+	display: inline;
+	color: #363634;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+	color: #C49A2C;
+	text-decoration: none;
+}
+
+.nav-cart, .nav-cart a {
+	float: right;
+	padding-left: 0.5em;
+	vertical-align: middle;
+}
+
+.nav-cart img {
+	clear: right;
+	vertical-align: middle;
+}
+
+
+/* Footer */
+footer {
+	background: #f5f5f5;
+	text-align: center;
+	display: block;
+	padding: 1em;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+}
+
+footer img {
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+
+footer img:hover {
+	opacity: 0.6; 
+	filter: alpha(opacity=60);
+}
+
+footer span {
+	display: block;
+	padding: 2em 0 1em;
+}
+
+.textfield-newsletter {
+	background: #fff url("../img/icon-right.png") no-repeat 98% 50%;
+	padding: 1em;
+	width: 300px;
+	font-size: 0.9em;
+	font-family: "Raleway", Arial, sans-serif;
+	letter-spacing: 0.02em;
+	border: 1px solid #d8d8d8;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
+
+.textfield-newsletter:focus{
+	border: 1px solid #565a5b;
+	outline: none;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
