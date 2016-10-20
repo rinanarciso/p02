@@ -24,39 +24,17 @@ section {
 	padding: 2em 0;
 }
 
-.title {
-	font-weight: 700;
-	font-size: 1.7em;
-	letter-spacing: 0.04em;
-}
 
-.selector {
-	font-weight: 700;
-}
+/********************
+ ** TEXT ELEMENTS ***
+ ********************/
 
-code {
-	background: #f5f5f5;
-	border-radius: 3px;
-	margin: 2.5em 0;
-	padding: 0.5em 1em;
-	display: block;
-	text-align: left;
-	font-weight: 300;
-}
-
+/* In-text links */
 a, a:hover {
 	-webkit-transition: color 0.5s;
 	transition: color 0.5s;
 }
 
-
-/* Title */
-.main-title {
-	text-align: center;
-}
-
-
-/* Text */
 a {
 	color: #D0B7A4;
 	text-decoration: none;
@@ -66,8 +44,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-
-/* Headings */
+/* Headers */
 h1, h2, h3, h5 {
 	font-weight: 400;
 }
@@ -95,14 +72,16 @@ h5 {
 	text-transform: uppercase;
 }
 
-
 /* Paragraphs */
 p {
 	line-height: 1.5em;	
 }
 
 
-/* Main navigation */
+/********************
+ * MAIN NAVIGATION **
+ ********************/
+
 header {
 	background-color: #fff;
 	padding: 1em 2em;
@@ -150,7 +129,10 @@ header nav ul li a:hover {
 }
 
 
-/* Footer */
+/********************
+ ****** FOOTER ******
+ ********************/
+
 footer {
 	background: #f5f5f5;
 	text-align: center;
@@ -199,10 +181,76 @@ footer span {
 	transition: border 0.8s ease-out;
 }
 
-.textfield-newsletter:focus{
+.textfield-newsletter:focus {
 	border: 1px solid #565a5b;
 	outline: none;
 
 	-webkit-transition: border 0.8s ease-out;
 	transition: border 0.8s ease-out;
+}
+
+
+/********************
+ ******* HOME *******
+ ********************/
+
+/* Title */
+ #banner-home-title {
+	background: url('../img/banner-home-title.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30em;
+ }
+
+ #home-title {
+	padding-top: 5em;
+	color: #fff;
+}
+
+/* About */
+#banner-home-about {
+	background-color: #F3EEDB;
+	text-align: center;
+}
+
+#banner-home-about h2 {
+	letter-spacing: 0.03em;
+	font-size: 1.1em;
+	line-height: 1.7em;
+	padding-bottom: 1.8em;
+	margin: 0 auto;
+	max-width: 40rem;
+}
+
+/* Watches */
+#banner-home-watches {
+	text-align: center;
+}
+
+/* Lookbook */
+#img-home-lookbook {
+	background: url('../img/banner-home-lookbook.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 23em;
+	top: 0;
+	left: -5em;
+	position: relative;
+	margin-top: -2em;
+}
+
+#banner-home-lookbook {
+	background-color: #d8d8d8;
+	position: relative;
+	height: 23em;
+}
+
+#banner-home-lookbook h1 {
+	font-size: 1em;
+}
+
+#banner-home-lookbook h2 {
+	font-size: 2em;
 }
