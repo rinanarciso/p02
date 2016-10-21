@@ -326,3 +326,68 @@ footer span {
 #banner-home-lookbook h2 {
 	font-size: 2em;
 }
+
+
+/********************
+ ***** LOOKBOOK *****
+ ********************/
+
+/* Title */
+#banner-lookbook-title {
+	text-align: center;
+	background-color: #d8d8d8;
+	padding-bottom: 2em;
+}
+
+#banner-lookbook-title h2 {
+	letter-spacing: 0.03em;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+/* Entries */
+#banner-lookbook-entries {
+	max-width: 960px;
+}
+
+#banner-lookbook-entries a:hover {
+	text-decoration: none;
+}
+
+#lookbook-fall2016, #lookbook-spring2016, #lookbook-fall2015 {
+	background-position: center bottom;
+	height: 500px;
+	width: 960px;
+	margin: 2.5em 0;
+}
+
+#lookbook-fall2016 {
+	background-image: url('../img/lookbook-fall2016.jpg');
+	color: #fff;
+}
+
+#lookbook-spring2016 {
+	background-image: url('../img/lookbook-spring2016.jpg');
+	color: #565A5B
+}
+
+#lookbook-fall2015 {
+	background-image: url('../img/lookbook-fall2015.jpg');
+	color: #fff;
+}
+
+.lookbook-title {
+	padding: 1em;
+	position: relative;
+	top: 88%;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+}
+
+.lookbook-season {
+	padding: 1em 2em;
+	position: relative;
+	top: 88%;
+	float: right;
+	font-size: 1em;
+}
