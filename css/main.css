@@ -79,6 +79,38 @@ p {
 
 
 /********************
+ ***** BUTTONS ******
+ ********************/
+
+.btn-mustard {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background-color: #C49A2C;
+	color: #fff;
+	border: 2px solid #C49A2C;
+	display: inline-block;
+	padding: 1em 2em;
+	margin-top: 1em;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+
+}
+
+.btn-mustard:hover {
+	background-color: #fff;
+	color: #C49A2C;
+	border: 2px solid #C49A2C;
+	text-decoration: none;	
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+
+/********************
  * MAIN NAVIGATION **
  ********************/
 
@@ -223,7 +255,7 @@ footer span {
  }
 
  #home-title {
-	padding-top: 5em;
+	padding-top: 4.5em;
 	color: #fff;
 }
 
@@ -231,6 +263,7 @@ footer span {
 #banner-home-about {
 	background-color: #F3EEDB;
 	text-align: center;
+	padding-bottom: 0.8em;
 }
 
 #banner-home-about h2 {
@@ -242,9 +275,28 @@ footer span {
 	max-width: 40rem;
 }
 
+#banner-home-about hr {
+	max-width: 40rem;
+	padding: 0;
+	border: none;
+	border-top: solid #565A5B 1px;
+	text-align: center;
+}
+
+#banner-home-about hr:after { 
+	content: url('../img/icon-d.gif');
+	display: inline-block;
+	position: relative;
+	top: -0.6em;
+	font-size: 1.5em;
+	padding: 0 0.5em;
+	background-color: #F3EEDB;
+}
+
 /* Watches */
 #banner-home-watches {
 	text-align: center;
+	padding-bottom: 2.5em;
 }
 
 /* Lookbook */
