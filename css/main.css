@@ -130,6 +130,25 @@ header nav ul li a:hover {
 
 
 /********************
+ *** CHECKOUT NAV ***
+ ********************/
+
+.nav-checkout {
+	background-color: #fff;
+	padding: 3em 3em;
+	border-bottom: none;
+}
+
+.nav-checkout div {
+	margin-top: 4em;
+}
+
+.nav-checkout img {
+	vertical-align: -5px;
+}
+
+
+/********************
  ****** FOOTER ******
  ********************/
 
@@ -249,6 +268,7 @@ footer span {
 
 #banner-home-lookbook h1 {
 	font-size: 1em;
+	letter-spacing: 0.04em;
 }
 
 #banner-home-lookbook h2 {
