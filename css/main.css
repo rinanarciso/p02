@@ -88,7 +88,7 @@ p {
  ***** BUTTONS ******
  ********************/
 
-.btn-mustard {
+.btn-calltoaction {
 	font-weight: 700;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
@@ -105,10 +105,35 @@ p {
 
 }
 
-.btn-mustard:hover {
+.btn-calltoaction:hover {
+	background-color: #fff;
+	color: #C49A2C;
+	text-decoration: none;	
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.btn-addtocart {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 	background-color: #fff;
 	color: #C49A2C;
 	border: 2px solid #C49A2C;
+	display: block;
+	padding: 1em 2em;
+	margin-top: 1em;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+
+}
+
+.btn-addtocart:hover {
+	background-color: #C49A2C;
+	color: #fff;
 	text-decoration: none;	
 
 	-webkit-transition: background-color 0.5s;
@@ -382,9 +407,18 @@ footer span {
     transition: opacity 0.2s ease-in-out;
 }
 
+.listing img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.listing h3 {
+	font-size: 0.9rem;
+	margin-bottom: 0;
+}
+
 .listing h3 a {
     color: #000;
-   	font-size: 0.9em;
     font-weight: 400;
     line-height: 2em;
 }
@@ -392,6 +426,11 @@ footer span {
 .listing h3 a:hover {
     color: #D0B7A4;
     text-decoration: none;
+}
+
+.listing p {
+	color: #9FA2A3;
+	margin: 0;
 }
 
 
