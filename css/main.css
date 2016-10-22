@@ -374,13 +374,24 @@ footer span {
 
  .listing img {
     max-width: 100%;
-    padding-bottom: 1em;
     display: block;
     -webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
     -o-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+}
+
+.listing h3 a {
+    color: #000;
+   	font-size: 0.9em;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.listing h3 a:hover {
+    color: #D0B7A4;
+    text-decoration: none;
 }
 
 
