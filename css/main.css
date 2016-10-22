@@ -77,6 +77,12 @@ p {
 	line-height: 1.5em;	
 }
 
+.title h2 {
+	letter-spacing: 0.03em;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
 
 /********************
  ***** BUTTONS ******
@@ -240,17 +246,24 @@ footer span {
 	transition: border 0.8s ease-out;
 }
 
+/********************
+ ******* Title ******
+ ********************/
+
+ .title {
+ 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+ }
+
 
 /********************
  ******* HOME *******
  ********************/
 
 /* Title */
- #banner-home-title {
+ #banner-home {
 	background: url('../img/banner-home-title.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 	height: 30em;
  }
 
@@ -327,6 +340,49 @@ footer span {
 	font-size: 2em;
 }
 
+/********************
+ ******* Watches *******
+ ********************/
+
+/* Classics Title */
+ #banner-classics {
+	background: url('');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	background-color: #d8d8d8;
+	padding-bottom: 2em;
+ }
+
+ /* Originals Title */
+ #banner-originals {
+	background: url('');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	background-color: #d8d8d8;
+	padding-bottom: 2em;
+ }
+
+ /* Watches Listing */
+ .listing {
+ 	padding: 1em;
+    text-align: center;
+ }
+
+ .listing img {
+    max-width: 100%;
+    padding-bottom: 1em;
+    display: block;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
 
 /********************
  ***** LOOKBOOK *****
@@ -337,12 +393,6 @@ footer span {
 	text-align: center;
 	background-color: #d8d8d8;
 	padding-bottom: 2em;
-}
-
-#banner-lookbook-title h2 {
-	letter-spacing: 0.03em;
-	font-size: 1.1em;
-	line-height: 1.7em;
 }
 
 /* Entries */
