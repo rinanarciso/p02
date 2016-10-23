@@ -219,6 +219,7 @@ header nav ul li a:hover {
 .nav-cart img {
 	clear: right;
 	vertical-align: middle;
+	display: inline-block;
 }
 
 
