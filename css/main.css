@@ -11,17 +11,17 @@ body {
 	color: #565a5b;
 	font-weight: 400;
 	letter-spacing: 0.02em;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 section {
 	margin: 0 auto;
+	padding: 3em 0;
 }
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 70rem;
-	padding: 2em 0;
+	max-width: 65rem;
 }
 
 
@@ -47,11 +47,21 @@ a:hover {
 /* Headers */
 h1, h2, h3, h5 {
 	font-weight: 400;
+	margin-top: 0;
 }
 
 h1 {
 	font-size: 2.1em;
 	letter-spacing: 0.04em;
+}
+
+h1 small {
+    text-transform: uppercase;
+    display: block;
+    color: #9FA2A3;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -74,7 +84,7 @@ h5 {
 
 /* Paragraphs */
 p {
-	line-height: 1.5em;	
+	line-height: 1.75em;	
 }
 
 .title h2 {
@@ -83,6 +93,10 @@ p {
 	line-height: 1.7em;
 }
 
+img {
+	max-width: 100%;
+    display: block;
+}
 
 /********************
  ***** BUTTONS ******
@@ -115,6 +129,22 @@ p {
 }
 
 .btn-addtocart {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #C49A2C;
+	border: 2px solid #C49A2C;
+	padding: 1em 2em;
+	margin-top: 1em;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+
+}
+
+.listing .btn-addtocart {
 	font-weight: 700;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
@@ -210,6 +240,26 @@ header nav ul li a:hover {
 	vertical-align: -5px;
 }
 
+/********************
+ ***  BREADCRUMBS ***
+ ********************/
+
+.breadcrumbs {
+	font-size: 0.7rem;
+	padding: 1.5em 0;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.breadcrumbs a, .breadcrumbs a:hover {
+	color: #565a5b;
+	text-decoration: none;
+}
+
+.breadcrumbs strong {
+	color: #D0B7A4;
+	
+}
+
 
 /********************
  ****** FOOTER ******
@@ -233,6 +283,7 @@ footer li {
 }
 
 footer img {
+	display: inline-block;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-moz-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
@@ -276,7 +327,7 @@ footer span {
  ********************/
 
  .title {
- 	padding: 2em 0 3.5em;
+ 	padding: 3em 0;
  	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -333,7 +384,7 @@ footer span {
 }
 
 /* Watches */
-#banner-home-watches {
+#bestsellers {
 	text-align: center;
 	padding-bottom: 2.5em;
 }
@@ -346,7 +397,7 @@ footer span {
 	background-position: center top;
 	height: 23em;
 	top: 0;
-	left: -5em;
+	left: -10em;
 	position: relative;
 	margin-top: -2em;
 }
@@ -371,6 +422,10 @@ footer span {
  ********************/
 
 /* Classics Title */
+#classic-watches, #original-watches {
+	padding: 0;
+}
+
  #banner-classics {
 	background: url('');
 	background-size: cover;
@@ -401,8 +456,6 @@ footer span {
  }
 
  .listing-item img {
-    max-width: 100%;
-    display: block;
     -webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
@@ -436,6 +489,58 @@ footer span {
 	margin: 0;
 }
 
+
+ /* Watch Product */
+
+.watch-thumbnail, .watch-img-main, .watch-description {
+	padding: 1em;
+}
+
+.watch-thumbnail {
+	list-style-type: none;
+	margin: 0;
+}
+.watch-thumbnail li {
+	margin-bottom: 0.5em;
+}
+
+.watch-price {
+	font-size: 2em;
+	padding-bottom: 0.5em;
+}
+
+ /* Watch Specs */
+.watch-specification {
+	background-color: #f5f5f5;
+}
+
+.watch-specs-item {
+	padding: 1em;
+}
+
+.watch-specs-table {
+	width: 100%;
+}
+	.watch-specs-heading {
+		width: 35%
+	}
+	.watch-specs-info {
+		width: 65%
+	}
+
+ /* Recommended Watches */
+
+.watch-recommended {
+	text-align: center;
+	padding-bottom: 2.5em;
+}
+
+/* Watch Review */
+
+.watch-reviews {
+	text-align: center;
+	border-top: 1px solid #d8d8d8;
+}
 
 /********************
  ***** LOOKBOOK *****
