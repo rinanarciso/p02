@@ -457,6 +457,8 @@ footer span {
  }
 
  .listing-item img {
+ 	margin-bottom: .8em;
+ 	-webkit-backface-visibility: hidden;
     -webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
