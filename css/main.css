@@ -19,6 +19,10 @@ section {
 	padding: 3em 0;
 }
 
+table {
+	width: 100%;
+}
+
 .wrapper {
 	margin: 0 auto;
 	max-width: 65rem;
@@ -55,15 +59,6 @@ h1 {
 	letter-spacing: 0.04em;
 }
 
-h1 small {
-    text-transform: uppercase;
-    display: block;
-    color: #9FA2A3;
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    margin-bottom: 20px;
-}
-
 h3 {
 	letter-spacing: 0.03em;	
 }
@@ -82,6 +77,22 @@ h5 {
 	text-transform: uppercase;
 }
 
+small {
+    text-transform: uppercase;
+    display: block;
+    color: #9FA2A3;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+}
+
+h1 small {
+	margin-bottom: 2em;
+}
+
+h2 small {
+	margin-bottom: 1em;
+}
+
 /* Paragraphs */
 p {
 	line-height: 1.75em;	
@@ -96,6 +107,25 @@ p {
 img {
 	max-width: 100%;
     display: block;
+}
+
+input {
+	padding: 1em;
+	font-size: 0.9em;
+	font-family: "Raleway", Arial, sans-serif;
+	letter-spacing: 0.02em;
+	border: 1px solid #d8d8d8;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
+
+input:focus {
+	border: 1px solid #565a5b;
+	outline: none;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
 }
 
 /********************
@@ -304,23 +334,7 @@ footer span {
 
 .textfield-newsletter {
 	background: #fff url("../img/icon-right.png") no-repeat 98% 50%;
-	padding: 1em;
 	width: 300px;
-	font-size: 0.9em;
-	font-family: "Raleway", Arial, sans-serif;
-	letter-spacing: 0.02em;
-	border: 1px solid #d8d8d8;
-
-	-webkit-transition: border 0.8s ease-out;
-	transition: border 0.8s ease-out;
-}
-
-.textfield-newsletter:focus {
-	border: 1px solid #565a5b;
-	outline: none;
-
-	-webkit-transition: border 0.8s ease-out;
-	transition: border 0.8s ease-out;
 }
 
 /********************
@@ -347,28 +361,26 @@ footer span {
  }
 
 #banner-home h1 {
-	padding-top: 1.5em;
+	padding-top: 2em;
 }
 
 /* About */
 #banner-home-about {
 	background-color: #F3EEDB;
 	text-align: center;
-	padding-bottom: 0.8em;
 }
 
-#banner-home-about h2 {
+#banner-home-about p {
+	max-width: 40rem;
 	letter-spacing: 0.03em;
 	font-size: 1.1em;
 	line-height: 1.7em;
-	padding-bottom: 1.8em;
 	margin: 0 auto;
-	max-width: 40rem;
 }
 
 #banner-home-about hr {
 	max-width: 40rem;
-	padding: 0;
+	margin-top: 3em;
 	border: none;
 	border-top: solid #565A5B 1px;
 	text-align: center;
@@ -387,7 +399,6 @@ footer span {
 /* Watches */
 #bestsellers {
 	text-align: center;
-	padding-bottom: 2.5em;
 }
 
 /* Lookbook */
@@ -521,15 +532,12 @@ footer span {
 	padding: 1em;
 }
 
-.watch-specs-table {
-	width: 100%;
+.watch-specs-heading {
+	width: 35%
 }
-	.watch-specs-heading {
-		width: 35%
-	}
-	.watch-specs-info {
-		width: 65%
-	}
+.watch-specs-info {
+	width: 65%
+}
 
  /* Recommended Watches */
 
@@ -601,3 +609,56 @@ footer span {
 	float: right;
 	font-size: 1em;
 }
+
+/********************
+ ******* CART *******
+ ********************/
+
+.money {
+	font-size: 1.5em;
+}
+
+.table-cart th, .table-cart td {
+	padding: 1em;
+}
+
+tbody tr {
+	border-top: 1px solid #d8d8d8;
+}
+
+th {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #9FA2A3;
+}
+
+td {
+	text-align: center;
+}
+
+.cart-item-img {
+	width: 12.5%;
+}
+
+.cart-item-detail {
+	text-align: left;
+}
+
+.update-cart-qty {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
