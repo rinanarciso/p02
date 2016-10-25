@@ -404,7 +404,7 @@ footer span {
 }
 
 #bestsellers-listing {
-	margin: 1em 0;
+	margin: 1em 0 1.8em;
 }
 
 /* Lookbook */
@@ -435,8 +435,9 @@ footer span {
 	font-size: 2em;
 }
 
+
 /********************
- ******* Watches *******
+ ***** WATCHES ******
  ********************/
 
 /* Classics Title */
