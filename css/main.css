@@ -139,8 +139,7 @@ tbody tr {
 th {
 	text-transform: uppercase;
 	font-size: 0.9em;
-	font-weight: 400;
-	color: #9FA2A3;
+	font-weight: 600;
 }
 
 /********************
@@ -292,8 +291,22 @@ header nav ul li a:hover {
 
 .breadcrumbs {
 	font-size: 0.7rem;
-	padding: 1.5em 0;
+	padding: 0.5em 0;
 	border-bottom: 1px solid #d8d8d8;
+}
+
+.breadcrumbs ul {
+	padding: 0;
+	list-style-type: none
+}
+
+.breadcrumbs li {
+	display: inline-block;
+}
+
+.breadcrumb-item::before {
+	content: "\203a\00a0";
+    padding: 0 5px;
 }
 
 .breadcrumbs a, .breadcrumbs a:hover {
@@ -370,7 +383,7 @@ footer span {
 
 /* Title */
 #banner-home {
-	background: url('../img/banner-home-title.jpg');
+	background: url('../img/banners/banner-home-title.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 30em;
@@ -424,7 +437,7 @@ footer span {
 
 /* Lookbook */
 #img-home-lookbook {
-	background: url('../img/banner-home-lookbook.jpg');
+	background: url('../img/banners/banner-home-lookbook.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -489,23 +502,23 @@ footer span {
     text-align: center;
  }
 
- .listing-item img {
- 	margin-bottom: 0.8em;
+ .listing-item img, .watch-thumbnail-item a img {
  	-webkit-backface-visibility: hidden;
-    -webkit-transition: opacity 0.2s ease-in-out;
+ 	-webkit-transition: opacity 0.2s ease-in-out;
     -moz-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
     -o-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 }
 
-.listing-item img:hover{
+.listing-item img:hover, .watch-thumbnail-item a img:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
 
 .listing-item h3 {
 	font-size: 0.9rem;
+	margin-top: 0.8em;
 	margin-bottom: 0;
 }
 
@@ -555,7 +568,8 @@ footer span {
 }
 
 .watch-specs-heading {
-	width: 35%
+	width: 35%;
+	text-align: left;
 }
 .watch-specs-info {
 	width: 65%
@@ -572,7 +586,7 @@ footer span {
 
 .watch-reviews {
 	text-align: center;
-	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
 }
 
 /********************
@@ -644,7 +658,12 @@ footer span {
 	text-align:center;
 }
 
-.table-cart th, .table-cart td {
+.table-cart th {
+	padding: 1em;
+	color: #9FA2A3;
+}
+
+.table-cart td {
 	padding: 1em;
 }
 
