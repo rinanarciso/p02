@@ -19,10 +19,6 @@ section {
 	padding: 3em 0;
 }
 
-table {
-	width: 100%;
-}
-
 .wrapper {
 	margin: 0 auto;
 	max-width: 65rem;
@@ -126,6 +122,25 @@ input:focus {
 
 	-webkit-transition: border 0.8s ease-out;
 	transition: border 0.8s ease-out;
+}
+
+/********************
+ ****** TABLES ******
+ ********************/
+
+table {
+	width: 100%;
+}
+
+tbody tr {
+	border-top: 1px solid #d8d8d8;
+}
+
+th {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #9FA2A3;
 }
 
 /********************
@@ -625,23 +640,12 @@ footer span {
 	font-size: 1.5em;
 }
 
+.table-cart {
+	text-align:center;
+}
+
 .table-cart th, .table-cart td {
 	padding: 1em;
-}
-
-tbody tr {
-	border-top: 1px solid #d8d8d8;
-}
-
-th {
-	text-transform: uppercase;
-	font-size: 0.9em;
-	font-weight: 400;
-	color: #9FA2A3;
-}
-
-td {
-	text-align: center;
 }
 
 .cart-item-img {
