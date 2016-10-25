@@ -356,6 +356,8 @@ footer span {
 /* Title */
 #banner-home {
 	background: url('../img/banner-home-title.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 30em;
 	color: #fff;
  }
@@ -399,6 +401,10 @@ footer span {
 /* Watches */
 #bestsellers {
 	text-align: center;
+}
+
+#bestsellers-listing {
+	margin: 1em 0;
 }
 
 /* Lookbook */
