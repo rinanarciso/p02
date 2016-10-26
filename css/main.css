@@ -73,12 +73,6 @@ h1, h2, h3, h5 {
 		text-transform: uppercase;
 	}
 
-	.title h2 {
-		letter-spacing: 0.03em;
-		font-size: 1.1em;
-		line-height: 1.7em;
-	}
-
 small {
     text-transform: uppercase;
     display: block;
@@ -227,10 +221,12 @@ header nav {
 }
 	header nav ul {
 		overflow: hidden;
+		margin: 0;
 	}
 	header nav ul li {
 		list-style-type: none;
 		display: inline-block;
+		padding: 1em;s
 	}
 
 	header nav ul li a {
@@ -251,6 +247,12 @@ li.nav-cart, .nav-cart a {
 	float: right;
 	padding-right: 0;
 }
+	li.nav-cart a img {
+		float: left;
+		padding-right: 0.5em;
+		position: relative;
+		margin-top: -3px;
+	}
 
 .logo {
 	margin-top: 0.8em;
@@ -365,6 +367,11 @@ footer span {
 	background-repeat: no-repeat;
 	background-position: center center;
  }
+ 	.title h2 {
+		letter-spacing: 0.03em;
+		font-size: 1.1em;
+		line-height: 1.7em;
+	}
 
 
 /********************
@@ -376,13 +383,13 @@ footer span {
 	background: url('../img/banners/banner-home-title.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 30em;
 	color: #fff;
+	padding: 8em 0;
  }
 
-#banner-home h1 {
-	padding-top: 2em;
-}
+ #home-title {
+ 	max-width: 25rem;
+ }
 
 /* About */
 #banner-home-about {
@@ -426,22 +433,14 @@ footer span {
 }
 
 /* Lookbook */
-#img-home-lookbook {
-	background: url('../img/banners/banner-home-lookbook.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center top;
-	height: 23em;
-	top: 0;
-	left: -9em;
-	position: relative;
-	margin-top: -3em;
-}
-
 #banner-home-lookbook {
+	background: url('../img/banners/banner-home-lookbook.jpg');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top left;
 	background-color: #d8d8d8;
-	position: relative;
-	height: 23em;
+	overflow: hidden;
+	padding: 6em 0;
 }
 
 #banner-home-lookbook h1 {
@@ -451,6 +450,10 @@ footer span {
 
 #banner-home-lookbook h2 {
 	font-size: 2em;
+}
+
+#home-lookbook {
+	float: right;
 }
 
 
@@ -676,11 +679,29 @@ footer span {
 
 @media only screen 
   and (min-width: 320px) 
-  and (max-width: 840px) {
+  and (max-width: 900px) {
+
+  	#banner-home-lookbook {
+  		background-size: cover;
+  	}
+
+  	#home-lookbook {
+		float: none;
+	}
 
   	.watch-img-main {
   		text-align: center;
   	}
+
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 560px) {
+
+  	#home-title {
+ 		max-width: 100%;
+ 	}
 
 }
 
