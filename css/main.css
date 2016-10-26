@@ -132,7 +132,6 @@ input {
 
 table {
 	width: 100%;
-	table-layout: fixed;
 	border-collapse: collapse;
 }
 
@@ -683,9 +682,7 @@ footer span {
 	font-size: 1.35em;
 }
 
-.table-cart table tbody tr:not(:last-child),
 .cart-total table tbody tr:not(:last-child) {
-
 	border-bottom: 1px solid #d8d8d8;
 }
 
@@ -695,20 +692,18 @@ footer span {
 	border-bottom: 2px solid #D0B7A4;
 	
 }
+	.table-cart th {
+		padding: 0 0 2em;
+		color: #9FA2A3;
+		text-align: left;
+		border-bottom: 1px solid #d8d8d8;
+	}
 
-.table-cart th {
-	padding: 1em;
-	color: #9FA2A3;
-	text-align: left;
-}
+	.table-cart td {
+		padding: 2em 0;
+		border-bottom: 1px solid #d8d8d8;
+	}
 
-.table-cart tr {
-	overflow: hidden;
-}
-
-.table-cart td {
-	padding: 0 1em;
-}
 
 .cart-item-detail h2 {
 	font-size: 1.35em;
@@ -716,6 +711,7 @@ footer span {
 
 .cart-item-qty input {
 	width: 8em;
+	height: 3em;
 }
 
 .initiate-checkout {
@@ -736,6 +732,9 @@ footer span {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 900px) {
+  	section {
+  		padding: 2em 0;
+  	}
 
   	#banner-home-lookbook {
   		background-size: cover;
@@ -747,6 +746,11 @@ footer span {
 
   	.watch-img-main, .watch-description, .watch-title {
   		text-align: center;
+  	}
+
+  	#cart h1 {
+  		text-align: center;
+  		padding-bottom: 1rem;
   	}
 
  	.initiate-checkout {
@@ -771,17 +775,43 @@ footer span {
  		padding-bottom: 0;
  	}
 
+ 	.table-cart tr {
+ 		overflow: hidden;
+ 		display: block;
+ 		clear: left;
+ 		margin-bottom: 1em;
+ 	}
+
+ 	.table-cart tbody tr:not(:last-child) {
+		border-bottom: 1px solid #d8d8d8;
+		padding-bottom: 1em;
+	}
+
+ 	.table-cart td {
+		padding: 0;
+		border: none;
+	}
+
  	.cart-item-img {
-  		min-width: 81px;
-  	}
-
-  	.cart-item-img, .cart-item-detail, .cart-item-price {
+ 		display: block;
  		float: left;
+ 		margin-right: 1em;
  	}
 
- 	.cart-item-qty {
- 		float: right;
- 	}
+  	.cart-item-detail {
+		display: block;
+	}
+
+	.cart-item-price {
+		display: inline-block;
+		margin-top: 0.5em;
+	}
+
+	.cart-item-qty {
+		display: inline-block;
+		position: absolute;
+    	right: 1em;
+	}
 
   	.initiate-checkout {
   		width: 100%;
