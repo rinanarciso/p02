@@ -24,7 +24,7 @@
 					<li class="nav-main"><a href="watches.html">Watches</a></li>
 					<li class="nav-main"><a href="lookbook.html">Lookbook</a></li>
 					<li class="nav-main"><a href="contact.html">Contact</a></li>
-					<li class="nav-cart"><img src="img/icon-cart.png" alt=""><a href="cart.html">Cart</a></li>
+					<li class="nav-cart"><a href="cart.html"><img src="img/icon-cart.png" alt="View your cart">Cart</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -34,18 +34,17 @@
 				<h1>Your Cart</h1>
 				
 				<table class="table-cart">
-					<thead>
+					<thead class="hidden-sm hidden-md">
 						<tr>
-							<th class="cart-item-img">Item</th>
-							<th class="cart-item-detail"></th>
+							<th colspan="2">Item</th>
 							<th class="cart-item-price">Price</th>
-							<th class="cart-item-quanitiy">Quantity</th>
-							<th class="cart-item-total">Total</th>
+							<th class="cart-item-quanitiy">Qty</th>
+							<th class="cart-item-total hidden-sm hidden-md">Total</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td class="cart-item-img"><a href="rose-gold-grey.html"><img src="img/rosegold-grey.jpg" alt=""></a></td>
+							<td class="cart-item-img"><a href="rose-gold-grey.html"><img src="img/watches/classic-rosegold-grey-sm.jpg" alt="The Horse Classic Rose Gold / Grey Watch"></a></td>
 							<td class="cart-item-detail">
 								<h2>
 									<small>THE CLASSICS</small>
@@ -54,10 +53,35 @@
 								</td>
 							<td class="cart-item-price"><span class="money">$149.00</span></td>
 							<td class="cart-item-qty"><input type="number" name="update-cart-qty" placeholder="1"></td>
-							<td class="cart-item-total"><span class="money">$149.00</span></td>
+							<td class="cart-item-total hidden-sm hidden-md"><span class="money">$149.00</span></td>
 						</tr>
 					</tbody>
 				</table>
+
+				<div class="initiate-checkout">
+					<div class="cart-total">
+						<table>
+							<tbody>
+								<tr>
+									<th valign="middle"><h3>Subtotal</h3></th>
+									<td><span class="money">$149.00</span></td>
+								</tr>
+								<tr>
+									<th><h3>Flat Rate Shipping</h3></th>
+									<td><span class="money">$8.95</span></td>
+								</tr>
+								<tr>
+									<th><h3>Total</h3></th>
+									<td><span class="money">$157.95</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="cart-actions">
+						<a class="btn-checkout" href="#">Checkout</a>
+					</div>
+				</div>
 			</div> <!-- end of .wrapper -->
 		</section>
 
