@@ -13,7 +13,6 @@
 /* Apply the styling if item starts with 'grid-col-' */
 [class^='grid-col-'] {
 	float: left;
-	padding: 0;
 }
 
 /* Defining the column widths */
@@ -54,4 +53,41 @@
 	content: "";
 	display: block;
 	clear: both;
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 840px) {
+
+  	.grid-col-1of8 {
+		width: 15%;
+	}
+
+  	.grid-col-2of8 {
+		width: 50%;
+	}
+
+	.grid-col-3of8 {
+		width: 85%;
+	}
+
+	.grid-col-4of8 {
+		width: 100%;
+		clear: left;
+	}
+
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 560px) {
+
+  	.grid-col-3of8 {
+		width: 100%;
+	}
+
+  	.hidden {
+  		display: none;
+  	}
+
 }
