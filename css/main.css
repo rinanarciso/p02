@@ -660,7 +660,7 @@ footer span {
 
 #lookbook-fall2016 {
 	background-image: url('../img/lookbooks/lookbook-fall2016.jpg');
-	color: #fff;
+	color: #565A5B
 }
 
 #lookbook-spring2016 {
@@ -687,6 +687,54 @@ footer span {
 	top: 88%;
 	float: right;
 	font-size: 1em;
+}
+
+
+/********************
+ ** LOOKBOOK 2016 ***
+ ********************/
+
+#banner-lookbook-fall2016 {
+	background: url('../img/lookbook-fall2016/lookbook-7.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #d8d8d8;
+	height: 30em;
+}
+
+#banner-lookbook-fall2016-entry h1 {
+ 	margin-bottom: 0.5em;
+}
+
+#banner-lookbook-fall2016-entry img {
+ 	padding: 2em;
+}
+
+.lookbook-fall2016-text {
+	clear: both;
+	max-width: 20em;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+
+#entry-img1, #entry-img3 {
+	margin: 0 auto;
+}
+
+#entry-img2 {
+	float: right;
+}
+
+#entry-buttons {
+	text-align: center;
+	display: block;
+	margin: 2em;
+}
+
+#entry-buttons a {
+	margin: 0 1em;
 }
 
 
