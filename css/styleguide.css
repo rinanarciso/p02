@@ -310,49 +310,57 @@ p {
 
 /* Main navigation */
 header {
+	height: 70px;
 	background-color: #fff;
 	padding: 1em 2em;
 	border-bottom: 1px solid #d8d8d8;
-}
-
-.logo {
-	margin: 0.8em 3em 0 0;
-	display: inline-block;
-	vertical-align: middle;
-	float: left;
+	text-align: center;
 }
 
 header nav {
-	clear: right;
 	vertical-align: middle;
+	overflow: hidden;
 }
+	header nav ul {
+		overflow: hidden;
+		margin: 0;
+	}
+	header nav ul li {
+		list-style-type: none;
+		display: inline-block;
+		padding: 1em;s
+	}
+
+	header nav ul li a {
+		padding: 0 1.5em;
+		color: #565a5b;
+		text-transform: uppercase;
+	}
+	header nav ul li a:hover {
+		color: #C49A2C;
+		text-decoration: none;
+	}
 
 li.nav-main, li.nav-main a {
-	list-style-type: none;
-	padding: 0 0.8em;
+	float: left;
 }
 
-header nav ul li, header nav ul a {
-	display: inline;
-	color: #363634;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-header nav ul li a:hover {
-	color: #C49A2C;
-	text-decoration: none;
-}
-
-.nav-cart, .nav-cart a {
+li.nav-cart, .nav-cart a {
 	float: right;
-	padding-left: 0.5em;
-	vertical-align: middle;
+	padding-right: 0;
 }
+	li.nav-cart a img {
+		float: left;
+		padding-right: 1em;
+		position: relative;
+		margin-top: -3px;
+	}
 
-.nav-cart img {
-	clear: right;
+.logo {
+	margin-top: 0.8em;
+	display: inline-block;
 	vertical-align: middle;
+	float: left;
 }
 
 
