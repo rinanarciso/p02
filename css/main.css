@@ -29,6 +29,7 @@ section {
 	overflow: hidden;
 }
 
+
 /********************
  ** TEXT ELEMENTS ***
  ********************/
@@ -126,6 +127,7 @@ input {
 		transition: border 0.8s ease-out;
 	}
 
+
 /********************
  ****** TABLES ******
  ********************/
@@ -140,6 +142,7 @@ th {
 	font-size: 0.9em;
 	font-weight: 600;
 }
+
 
 /********************
  ***** BUTTONS ******
@@ -296,6 +299,7 @@ li.nav-cart, .nav-cart a {
 	float: left;
 }
 
+
 /********************
  *** CHECKOUT NAV ***
  ********************/
@@ -312,6 +316,7 @@ li.nav-cart, .nav-cart a {
 	.nav-checkout img {
 		vertical-align: -5px;
 	}
+
 
 /********************
  ***  BREADCRUMBS ***
@@ -392,6 +397,7 @@ footer span {
 	width: 300px;
 }
 
+
 /********************
  ******* Title ******
  ********************/
@@ -428,8 +434,12 @@ footer span {
 
 /* About */
 #banner-home-about {
-	background-color: #F3EEDB;
+	background: url('../img/banners/banner-titles.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
 	text-align: center;
+	background-color: #d8d8d8;
 }
 
 #banner-home-about p {
@@ -455,7 +465,7 @@ footer span {
 	top: -0.6em;
 	font-size: 1.5em;
 	padding: 0 0.5em;
-	background-color: #F3EEDB;
+	background-color: #fff;
 }
 
 /* Watches */
@@ -501,24 +511,23 @@ footer span {
 	padding: 0;
 }
 
- #banner-classics {
-	background: url('');
+#banner-classics {
+	background: url('../img/banners/banner-titles.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top center;
 	text-align: center;
 	background-color: #d8d8d8;
- }
+}
 
- /* Originals Title */
- #banner-originals {
-	background: url('');
+#banner-originals {
+	background: url('../img/banners/banner-titles.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
 	background-color: #d8d8d8;
- }
+}
 
  /* Watches Listing */
 .listing {
@@ -567,8 +576,11 @@ footer span {
 }
 
 
- /* Watch Product */
+/********************
+ *** WATCHES UNIT ***
+ ********************/
 
+ /* Watch Product */
 .watch-thumbnail, .watch-img-main, .watch-description {
 	padding: 1em;
 }
@@ -604,18 +616,17 @@ footer span {
 }
 
  /* Recommended Watches */
-
 .watch-recommended {
 	text-align: center;
 	padding-bottom: 2.5em;
 }
 
 /* Watch Review */
-
 .watch-reviews {
 	text-align: center;
 	border-bottom: 1px solid #d8d8d8;
 }
+
 
 /********************
  ***** LOOKBOOK *****
@@ -623,6 +634,10 @@ footer span {
 
 /* Title */
 #banner-lookbook {
+	background: url('../img/banners/banner-titles.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
 	text-align: center;
 	background-color: #d8d8d8;
 }
@@ -674,6 +689,7 @@ footer span {
 	font-size: 1em;
 }
 
+
 /********************
  ******* CART *******
  ********************/
@@ -724,10 +740,10 @@ footer span {
 	margin-top: 2em;
 }
 
+
 /********************
  ****** MOBILE ******
  ********************/
-
 
 @media only screen 
   and (min-width: 320px) 
