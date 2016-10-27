@@ -627,6 +627,28 @@ footer span {
 	border-bottom: 1px solid #d8d8d8;
 }
 
+.watch-reviews table {
+	text-align: left;
+	margin: 2.5em 0;
+}
+
+.watch-reviews td {
+	padding: 1em;
+	border-bottom: 1px dashed #d8d8d8;
+}
+
+.review-comment {
+	width: 70%;
+}
+
+.review-title {
+	font-weight: 700;
+}
+
+.review-author {
+	width: 30%;
+}
+
 
 /********************
  ***** LOOKBOOK *****
