@@ -108,7 +108,7 @@ img {
     display: block;
 }
 
-input {
+input, textarea {
 	padding: 1em;
 	font-size: 0.9em;
 	font-family: "Raleway", Arial, sans-serif;
@@ -119,7 +119,7 @@ input {
 	transition: border 0.8s ease-out;
 }
 
-	input:focus {
+	input:focus, textarea:focus {
 		border: 1px solid #565a5b;
 		outline: none;
 
@@ -637,6 +637,7 @@ footer span {
 	border-bottom: 1px dashed #d8d8d8;
 }
 
+/* Watch Review Form */
 .review-comment {
 	width: 70%;
 }
@@ -656,6 +657,79 @@ footer span {
 .review-author li {
 	list-style-type: none;
 	line-height: 1.5em;
+}
+
+.review-recommend {
+	padding-top: 1em;
+}
+
+.review-form {
+	display: none;
+	max-width: 50em;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 2em;
+	padding: 2em;
+	background-color: #F3EEDB;
+}
+
+.review-form .grid-col-8of8 {
+	margin-bottom: 1.5em;
+}
+
+#firstname {
+	width: 95%;
+}
+
+.review-form input[type="radio"] {
+	display: inline;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	padding: 1em;
+}
+
+.review-form input[type="text"] {
+	display: block;
+	width: 100%;
+	margin: 1em 0 1.5em;
+}
+
+.review-form textarea {
+	display: block;
+	width: 100%;
+	margin: 1em 0 1.5em;
+	padding: 1em;
+}
+
+.review-submit {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.review-form input[type=submit] {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 2px solid #C49A2C;
+	background-color: #C49A2C;
+	color: #fff;
+
+	padding: 0.9em 2em;
+	margin-right: 1em;
+	font-family: "Raleway", Arial, sans-serif;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.review-form input[type=submit]:hover {
+	color: #C49A2C;
+	border: 2px solid #C49A2C;
+	background-color: #fff;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
 }
 
 
