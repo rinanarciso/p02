@@ -142,8 +142,77 @@
 		<section class="watch-reviews">
 			<div class="wrapper">
 				<h1>Reviews</h1>
+				<table>
+					<tr>
+						<td class="review-author">
+							<ul>
+								<li class="review-rating"><img src="img/review-5stars.jpg"></li>
+								<li>Janella</li>
+								<li>Verified Purchaser</li>
+								<li class="review-recommend"><strong>Yes,</strong> I recommend this product.</li>
+							</ul>
+						</td>
+						<td class="review-comment">
+							<span class="review-title">Best Watch Ever!</span> &nbsp;&#0149&nbsp; 2 days ago
+							<p>I've been eyeing this watch for a long time, and I'm so glad I got it for my birthday! It's so classy and feminine. I love the neutral colors. It goes well with anything I wear and I've gotten a lot of compliments.</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="review-author">
+							<ul>
+								<li class="review-rating"><img src="img/review-4stars.jpg"></li>
+								<li>Elizabeth</li>
+								<li>Verified Purchaser</li>
+								<li class="review-recommend"><strong>Yes,</strong> I recommend this product.</li>
+							</ul>
+						</td>
+						<td class="review-comment">
+							<span class="review-title">Love it!</span> &nbsp;&#0149&nbsp; 3 months ago
+							<p>I really like this watch. The strap is darker than in the photo but it's still such a beautiful watch.</p>
+						</td>
+					</tr>
+				</table>
+				<a class="btn-calltoaction" id="review-btn">Write a Review</a>
 
-				<a class="btn-calltoaction">Write a Review</a>
+				<!-- Review form - toggles on button click -->
+				<div class="review-form">
+					<form>
+						<div class="grid-row">
+							<div class="grid-col-8of8">
+								Overall Rating
+								<input type="radio" name="rating">1
+								<input type="radio" name="rating">2
+								<input type="radio" name="rating">3
+								<input type="radio" name="rating">4
+								<input type="radio" name="rating">5
+							</div> <!-- end of .grid-col-8of8 -->
+						</div> <!-- end of .grid-row -->
+						Review Title
+						<input type="text" name="title" placeholder="Example: Most Stylish Watch"">
+						Review
+						<textarea placeholder="Example: I bought this a month ago and am so happy that I did..." rows="6"></textarea>
+						<div class="grid-row">
+							<div class="grid-col-4of8">
+								First name
+								<input type="text" name="name" id="firstname">
+							</div> <!-- end of .grid-col-4of8 -->
+							<div class="grid-col-4of8">
+								E-mail
+								<input type="text" name="email" id="email">
+							</div> <!-- end of .grid-col-4of8 -->
+						</div> <!-- end of .grid-row -->
+						<div class="grid-row">
+							<div class="grid-col-8of8">
+								Would you recommend this product to a friend?
+								<input type="radio" name="recommend-product">Yes
+								<input type="radio" name="recommend-product">No
+							</div> <!-- end of .grid-col-8of8 -->
+						</div> <!-- end of .grid-row -->
+						<div class="review-submit">
+							<input type="submit" value="Submit">
+						</div> <!-- end of .review-submit -->
+					</form>
+				</div> <!-- end of .review-form -->
 			</div>	<!-- end of .wrapper -->
 		</section>
 
@@ -201,5 +270,9 @@
 				© Rina Narciso &amp; Rosanne Wong &nbsp; | &nbsp; <a href="styleguide.html">Style Guide</a> &nbsp; | &nbsp; <a href="citations.html">Citations</a> &nbsp; | &nbsp; <a href="https://github.com/rinanarciso/p02">GitHub</a>
 			</span>
 		</footer>
+
+		<!-- Toggle script for review form -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/review-toggle.js"></script>
 	</body>
 </html>
