@@ -287,7 +287,7 @@ li.nav-cart, .nav-cart a {
 }
 	li.nav-cart a img {
 		float: left;
-		padding-right: 0.5em;
+		padding-right: 1em;
 		position: relative;
 		margin-top: -3px;
 	}
