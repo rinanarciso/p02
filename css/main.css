@@ -309,12 +309,15 @@ li.nav-cart, .nav-cart a {
 	padding: 3em 3em;
 	border-bottom: none;
 }
-	.nav-checkout div {
-		margin-top: 4em;
+	.nav-checkout-back {
+		float: left;
+		clear: both;
+		margin-top: 1em;
 	}
 
-	.nav-checkout img {
+	.nav-checkout-back img {
 		vertical-align: -5px;
+		display: inline;
 	}
 
 
@@ -404,9 +407,6 @@ footer span {
 
  .title {
  	padding: 4em 0;
- 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
  }
  	.title h2 {
 		letter-spacing: 0.03em;
