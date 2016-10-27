@@ -705,7 +705,7 @@ footer span {
 .table-cart {
 	min-width: 320px;
 	border-width: 2px;
-	border-bottom: 2px solid #D0B7A4;
+	border-bottom: 1px solid #d8d8d8;
 	
 }
 	.table-cart th {
