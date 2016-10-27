@@ -454,18 +454,18 @@ footer span {
 	max-width: 40rem;
 	margin-top: 3em;
 	border: none;
-	border-top: solid #565A5B 1px;
+	border-top: solid #8D8585 1px;
 	text-align: center;
 }
 
 #banner-home-about hr:after { 
-	content: url('../img/icon-d.gif');
+	content: url('../img/icon-d.png');
 	display: inline-block;
 	position: relative;
-	top: -0.6em;
+	top: -1.1em;
 	font-size: 1.5em;
 	padding: 0 0.5em;
-	background-color: #fff;
+	
 }
 
 /* Watches */
