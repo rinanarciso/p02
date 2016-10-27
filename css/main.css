@@ -179,8 +179,8 @@ th {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	background-color: #fff;
-	color: #C49A2C;
-	border: 2px solid #C49A2C;
+	color: #D0B7A4;
+	border: 2px solid #D0B7A4;
 	padding: 1em 2em;
 	margin-top: 1em;
 
@@ -195,8 +195,8 @@ th {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	background-color: #fff;
-	color: #C49A2C;
-	border: 2px solid #C49A2C;
+	color: #D0B7A4;
+	border: 2px solid #D0B7A4;
 	display: block;
 	padding: 1em 2em;
 	margin-top: 1em;
@@ -206,7 +206,7 @@ th {
 
 }
 	.btn-addtocart:hover {
-		background-color: #C49A2C;
+		background-color: #D0B7A4;
 		color: #fff;
 		text-decoration: none;	
 
