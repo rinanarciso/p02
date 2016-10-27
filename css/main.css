@@ -637,7 +637,6 @@ footer span {
 	border-bottom: 1px dashed #d8d8d8;
 }
 
-/* Watch Review Form */
 .review-comment {
 	width: 70%;
 }
@@ -663,6 +662,7 @@ footer span {
 	padding-top: 1em;
 }
 
+/* Watch Review Form */
 .review-form {
 	display: none;
 	max-width: 50em;
@@ -840,6 +840,82 @@ footer span {
 
 #entry-buttons a {
 	margin: 0 1em;
+}
+
+
+/********************
+ ***** CONTACT ******
+ ********************/
+
+/* Title */
+#banner-contact {
+	background: url('../img/banners/banner-titles.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	background-color: #d8d8d8;
+}
+
+#contact-info {
+	padding-right: 2em;
+	line-height: 1.5em;
+}
+
+#contact-info ul {
+	margin-top: 0.2em;
+	padding-bottom: 2em;
+}
+
+#contact-form #email {
+	width: 95%;
+}
+
+#contact-form input[type="radio"] {
+	display: inline;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	padding: 1em;
+}
+
+#contact-form input[type="text"] {
+	display: block;
+	width: 100%;
+	margin: 1em 0 1.5em;
+}
+
+#contact-form textarea {
+	display: block;
+	width: 100%;
+	margin: 1em 0 1.5em;
+	padding: 1em;
+}
+
+#contact-form input[type=submit] {
+	margin-top: 1em;
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border: 2px solid #C49A2C;
+	background-color: #C49A2C;
+	color: #fff;
+
+	padding: 0.9em 2em;
+	margin-right: 1em;
+	font-family: "Raleway", Arial, sans-serif;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#contact-form input[type=submit]:hover {
+	color: #C49A2C;
+	border: 2px solid #C49A2C;
+	background-color: #fff;
+
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
 }
 
 
