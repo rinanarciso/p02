@@ -223,7 +223,7 @@ th {
 	background-color: #fff;
 	color: #D0B7A4;
 	border: 2px solid #D0B7A4;
-	display: block;
+	display: inline-block;
 	padding: 1em 2em;
 	margin-top: 1em;
 
