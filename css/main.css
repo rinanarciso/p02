@@ -306,7 +306,7 @@ li.nav-cart, .nav-cart a {
 
 .nav-checkout {
 	background-color: #fff;
-	padding: 3em 3em;
+	padding: 3em 3em 6em;
 	border-bottom: none;
 }
 	.nav-checkout-back {
@@ -322,7 +322,7 @@ li.nav-cart, .nav-cart a {
 
 
 /********************
- ***  BREADCRUMBS ***
+ *** BREADCRUMBS ****
  ********************/
 
 .breadcrumbs {
@@ -970,6 +970,31 @@ footer span {
 
 .cart-total, .cart-actions {
 	margin-top: 2em;
+}
+
+
+/********************
+ ***** CHECKOUT *****
+ ********************/
+
+.checkout-form input[type="radio"] {
+	display: inline;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	padding: 1em;
+}
+
+.checkout-form input[type="text"] {
+	display: block;
+	width: 100%;
+	margin: 1em 0 1.5em;
+}
+
+.checkout-form textarea {
+	display: block;
+	width: 100%;
+	margin: 1em 0 1.5em;
+	padding: 1em;
 }
 
 
