@@ -314,25 +314,34 @@ li.nav-cart, .nav-cart a {
 
 .menu-mobile {
 	display: none;
+	padding-bottom: 1em;
 }
 
 .menu-mobile-links {
+	clear: both;
 	display: none;
+	position: relative;
+	z-index: 10000;
 	text-align: center;
-	padding-top: 0.5em;
+	background-color: #fff;
+	width: 100%;
 }
 
 .menu-mobile-links table {
 	list-style-type: none;
-	margin-top: 4em;
 	border-collapse: collapse;
-	border: 1px solid;
-	width: 100%;
-	background-color: #fff;
+	border: none;
+}
+
+.menu-mobile-links table img {
+	display: inline;
+	vertical-align: middle;
+	padding-right: 1em;
+	margin-top: -3px;
 }
 
 .menu-mobile-links table a {
-	padding: 0.5em 0;
+	padding: 0.8em 0;
 	color: #565a5b;
 	text-transform: uppercase;
 	display: block;
@@ -340,8 +349,9 @@ li.nav-cart, .nav-cart a {
 }
 
 .menu-mobile-links table td:hover {
-	background-color: #e35a01;
+	background-color: #f5f5f5;
 }
+
 
 /********************
  *** CHECKOUT NAV ***
