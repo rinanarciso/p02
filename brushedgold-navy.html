@@ -18,16 +18,28 @@
 	<body>
 		<!-- Main navigation -->
 		<header>
-			<a href="index.html"><img class="logo" src="img/logo.gif" alt="The Horse Watches Logo"></a>
+			<a href="index.html"><img class="logo-mobile" src="img/icon-d.png" alt="Dexterton Watches Logo"></a>
+			<a href="index.html"><img class="logo" src="img/logo.gif" alt="Dexterton Watches Logo"></a>
 			<nav>
 				<ul>
 					<li class="nav-main"><a href="watches.html">Watches</a></li>
 					<li class="nav-main"><a href="lookbook.html">Lookbook</a></li>
 					<li class="nav-main"><a href="contact.html">Contact</a></li>
-					<li class="nav-cart"><a href="cart.html"><img src="img/icon-cart.png" alt="View your cart"> Cart</a></li>
+					<li class="nav-cart"><a href="cart.html"><img src="img/icon-cart.png" alt="View your cart"><span>Cart</span></a></li>
 				</ul>
 			</nav>
+			<!-- Menu dropdown for smaller screens -->
+			<div class="menu-mobile"><img src="img/icon-menu.png" alt="Menu"></div>
 		</header>
+				<div class="menu-mobile-links">
+					<table>
+						<tr><td><a href="watches.html">Watches</a></td></tr>
+						<tr><td><a href="lookbook.html">Lookbook</a></td></tr>
+						<tr><td><a href="contact.html">Contact</a></td></tr>
+						<tr><td><a href="cart.html"><img src="img/icon-cart.png" alt="View your cart">Cart</a></td></tr>
+					</table>
+				</div> <!-- end of .menu-mobile-links -->
+			<!-- end of menu dropdown for smaller screens -->
 
 		<!-- Breadcrumbs -->
 		<div class="breadcrumbs hidden-sm">
