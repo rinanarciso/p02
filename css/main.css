@@ -261,10 +261,11 @@ header nav {
 		overflow: hidden;
 		margin: 0;
 	}
+
 	header nav ul li {
 		list-style-type: none;
 		display: inline-block;
-		padding: 1em;s
+		padding: 1em;
 	}
 
 	header nav ul li a {
@@ -272,6 +273,7 @@ header nav {
 		color: #565a5b;
 		text-transform: uppercase;
 	}
+
 	header nav ul li a:hover {
 		color: #C49A2C;
 		text-decoration: none;
@@ -299,6 +301,47 @@ li.nav-cart, .nav-cart a {
 	float: left;
 }
 
+
+/********************
+ **** MOBILE NAV ****
+ ********************/
+
+.logo-mobile {
+	display: none;
+	vertical-align: middle;
+	float: left;
+}
+
+.menu-mobile {
+	display: none;
+}
+
+.menu-mobile-links {
+	display: none;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+.menu-mobile-links table {
+	list-style-type: none;
+	margin-top: 4em;
+	border-collapse: collapse;
+	border: 1px solid;
+	width: 100%;
+	background-color: #fff;
+}
+
+.menu-mobile-links table a {
+	padding: 0.5em 0;
+	color: #565a5b;
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-mobile-links table td:hover {
+	background-color: #e35a01;
+}
 
 /********************
  *** CHECKOUT NAV ***
@@ -1091,17 +1134,49 @@ footer span {
  	}
 }
 
+@media (max-width: 53.75em) {
+	header nav ul li a {
+		padding: 0 1em;
+	}
+}
 
 
+@media (max-width: 50.81em) {
+	header nav ul li a {
+		padding: 0 0.5em;
+	}
+}
 
+@media (max-width: 48.13em) {
+	.logo {
+		display: none;
+	}
 
+	.logo-mobile {
+		display: inline-block;
+	}
 
+	header nav ul {
+		padding-left: 1em;
+	}
 
+	.nav-cart span {
+		display: none;
+	}
 
+	li.nav-cart a img {
+		padding-right: 0;
+	}
+}
 
+@media (max-width: 31.88em) {
+	header nav ul li {
+		display: none;
+	}
 
-
-
-
-
-
+	.menu-mobile {
+		display: inline-block;
+		float: right;
+		padding-right: 0;
+	}
+}
