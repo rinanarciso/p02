@@ -80,6 +80,10 @@
 		clear: left;
 	}
 
+	.grid-col-5of8 {
+		width: 100%;
+	}
+
 	.hidden-lg {
 		display: block;
 	}
