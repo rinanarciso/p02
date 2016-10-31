@@ -437,6 +437,33 @@ footer span {
 }
 
 
+/* Lookbook entry */
+#lookbook-fall2016 {
+	max-width: 960px;
+	background-position: center bottom;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url('../img/lookbooks/lookbook-fall2016.jpg');
+	color: #565A5B
+}
+
+#lookbook-title {
+	padding: 1em;
+	position: relative;
+	top: 88%;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+}
+
+#lookbook-season {
+	padding: 1em 2em;
+	position: relative;
+	top: 88%;
+	float: right;
+	font-size: 1em;
+}
+
+
 /* Grids */
 .grid-col-2of8.style, .grid-col-3of8.style, 
 .grid-col-4of8.style, .grid-col-5of8.style {
