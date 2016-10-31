@@ -1177,6 +1177,17 @@ footer span {
  	}
 }
 
+@media (max-width: 56.56em) {
+	#contact-info {
+		padding-right: 0;
+		padding-bottom: 3em;
+	}
+
+	#contact-form #email {
+		width: 100%;
+	}
+}
+
 @media (max-width: 53.75em) {
 	header nav ul li a {
 		padding: 0 1em;
