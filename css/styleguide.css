@@ -401,6 +401,24 @@ footer span {
 }
 
 
+/* Title banner */
+#banner-classics {
+	background: url('../img/banners/banner-titles.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	background-color: #d8d8d8;
+	padding: 2.5em 0;
+}
+
+#banner-classics h2 {
+	letter-spacing: 0.03em;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+
 /* Product listing */
 .grid-col-2of8.listing img {
 	max-width: 100%;
