@@ -45,7 +45,7 @@
 		<div class="breadcrumbs hidden-sm">
 			<div class="wrapper">
 				<ul>
-					<li class="breadcrumb-item-first"><a href="#">Watches</a></li>
+					<li class="breadcrumb-item-first"><a href="watches.html">Watches</a></li>
 					<li class="breadcrumb-item"><a href="#">The Classics</a></li>
 					<li class="breadcrumb-item"><strong>Rose Gold / Grey</strong></li>
 				</ul>
@@ -158,7 +158,7 @@
 					<tr>
 						<td class="review-author">
 							<ul>
-								<li class="review-rating"><img src="img/review-5stars.jpg"></li>
+								<li class="review-rating"><img src="img/review-5stars.svg"></li>
 								<li>Janella</li>
 								<li>Verified Purchaser</li>
 								<li class="review-recommend"><strong>Yes,</strong> I recommend this product.</li>
@@ -172,7 +172,7 @@
 					<tr>
 						<td class="review-author">
 							<ul>
-								<li class="review-rating"><img src="img/review-4stars.jpg"></li>
+								<li class="review-rating"><img src="img/review-4stars.svg"></li>
 								<li>Elizabeth</li>
 								<li>Verified Purchaser</li>
 								<li class="review-recommend"><strong>Yes,</strong> I recommend this product.</li>
@@ -191,7 +191,7 @@
 					<form>
 						<div class="grid-row">
 							<div class="grid-col-8of8">
-								Overall Rating
+								<lable for="rating">Overall Rating</lable>
 								<input type="radio" name="rating">1
 								<input type="radio" name="rating">2
 								<input type="radio" name="rating">3
@@ -199,23 +199,23 @@
 								<input type="radio" name="rating">5
 							</div> <!-- end of .grid-col-8of8 -->
 						</div> <!-- end of .grid-row -->
-						Review Title
+						<lable>Review Title</lable>
 						<input type="text" name="title" placeholder="Example: Most Stylish Watch">
-						Review
+						<lable>Review</lable>
 						<textarea placeholder="Example: I bought this a month ago and am so happy that I did..." rows="6"></textarea>
 						<div class="grid-row">
 							<div class="grid-col-4of8">
-								First name
+								<lable for="name">First name</lable>
 								<input type="text" name="name" id="firstname">
 							</div> <!-- end of .grid-col-4of8 -->
 							<div class="grid-col-4of8">
-								E-mail
+								<lable for="email">E-mail</lable>
 								<input type="text" name="email">
 							</div> <!-- end of .grid-col-4of8 -->
 						</div> <!-- end of .grid-row -->
 						<div class="grid-row">
 							<div class="grid-col-8of8">
-								Would you recommend this product to a friend?
+								<lable for="recommend-product">Would you recommend this product to a friend?</lable>
 								<input type="radio" name="recommend-product">Yes
 								<input type="radio" name="recommend-product">No
 							</div> <!-- end of .grid-col-8of8 -->
