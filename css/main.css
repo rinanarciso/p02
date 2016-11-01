@@ -158,7 +158,7 @@ th {
  ***** BUTTONS ******
  ********************/
 
-.btn-calltoaction {
+.btn-calltoaction, .btn-submit {
 	font-weight: 700;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
@@ -174,7 +174,7 @@ th {
 	transition: background-color 0.5s;
 
 }
-	.btn-calltoaction:hover {
+	.btn-calltoaction:hover, .btn-submit:hover {
 		background-color: #fff;
 		color: #C49A2C;
 		text-decoration: none;	
@@ -251,7 +251,6 @@ th {
 		-webkit-transition: background-color 0.5s;
 		transition: background-color 0.5s;
 	}
-
 
 /********************
  * MAIN NAVIGATION **
@@ -677,6 +676,7 @@ footer span {
 	width: 35%;
 	text-align: left;
 }
+
 .watch-specs-info {
 	width: 65%
 }
@@ -699,35 +699,37 @@ footer span {
 }
 
 .watch-reviews td {
+	vertical-align: top;
 	padding: 1em;
 	border-bottom: 1px dashed #d8d8d8;
-}
-
-.review-comment {
-	width: 70%;
-}
-
-.review-title {
-	font-weight: 700;
 }
 
 .review-author {
 	width: 30%;
 }
+	.review-author ul {
+		padding: 0;
+	}
+	.review-author li {
+		list-style-type: none;
+		line-height: 1.5em;
+	}
 
 .review-rating {
 	width: 7em;
 	padding-bottom: 1em;
 }
 
-.review-author li {
-	list-style-type: none;
-	line-height: 1.5em;
-}
-
 .review-recommend {
 	padding-top: 1em;
 }
+
+.review-comment {
+	width: 70%;
+}
+	.review-title {
+		font-weight: 700;
+	}
 
 /* Watch Review Form */
 .review-form {
@@ -740,17 +742,9 @@ footer span {
 	background-color: #F3EEDB;
 }
 
-.review-form .grid-col-8of8 {
-	margin-bottom: 1.5em;
-}
-
-#firstname {
-	width: 95%;
-}
-
 .review-form input[type="radio"] {
 	display: inline;
-	margin: 0.5em 0.5em auto 1em;
+	margin: 0.5em 0.5em 1.5em 1em;
 	padding: 1em;
 }
 
@@ -770,32 +764,6 @@ footer span {
 .review-submit {
 	text-align: center;
 	margin-top: 1em;
-}
-
-.review-form input[type=submit] {
-	font-weight: 700;
-	font-size: 0.8em;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	border: 2px solid #C49A2C;
-	background-color: #C49A2C;
-	color: #fff;
-
-	padding: 0.9em 2em;
-	margin-right: 1em;
-	font-family: "Raleway", Arial, sans-serif;
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
-.review-form input[type=submit]:hover {
-	color: #C49A2C;
-	border: 2px solid #C49A2C;
-	background-color: #fff;
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
 }
 
 
@@ -897,7 +865,7 @@ footer span {
 	float: right;
 }
 
-.entry-buttons {
+.entry-btn {
 	text-align: center;
 }
 
@@ -1103,6 +1071,15 @@ footer span {
  	.watch-price {
  		padding-bottom: 0;
  	}
+
+ 	.watch-specs-heading {
+	width: 50%;
+	text-align: left;
+	}
+
+	.watch-specs-info {
+		width: 50%
+	}
 
  	.table-cart tr {
  		overflow: hidden;
