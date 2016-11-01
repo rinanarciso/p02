@@ -161,76 +161,69 @@ a:hover {
 }
 
 
-/* Buttons */
-.btn-mustard, .btn-kraft, .btn-cream {
+/* Action buttons */
+.btn-calltoaction {
 	font-weight: 700;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
-	background-color: #fff;
-	padding: 0.9em 2em;
+	background-color: #C49A2C;
+	color: #fff;
+	border: 2px solid #C49A2C;
+	display: inline-block;
+	padding: 1em 2em;
+	margin-top: 1em;
 	margin-right: 1em;
 
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
+
 }
+	.btn-calltoaction:hover {
+		background-color: #fff;
+		color: #C49A2C;
+		border: 2px solid #C49A2C;
+		text-decoration: none;	
 
-.btn-mustard {
-	background-color: #fff;
-	color: #C49A2C;
-	border: 2px solid #C49A2C;
-}
+		-webkit-transition: background-color 0.5s;
+		transition: background-color 0.5s;
+	}
 
-.btn-mustard:hover {
-	background-color: #C49A2C;
-	color: #fff;
-	text-decoration: none;	
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
-.btn-kraft {
-	background-color: #fff;
-	color: #D0B7A4;
+.btn-addtocart {
+	font-weight: 700;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 	border: 2px solid #D0B7A4;
-}
-
-.btn-kraft:hover {
 	background-color: #D0B7A4;
 	color: #fff;
-	text-decoration: none;	
+	padding: 1em 2em;
+	margin-top: 1em;
 
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
+	.btn-addtocart:hover {
+		background-color: #fff;
+		color: #D0B7A4;
+		border: 2px solid #D0B7A4;
+		text-decoration: none;	
 
-.btn-cream {
-	background-color: #fff;
-	color: #604743;
-	border: 2px solid #F3EEDB;
-}
-
-.btn-cream:hover {
-	background-color: #F3EEDB;
-	color: #604743;
-	border: 2px solid #F3EEDB;
-	text-decoration: none;	
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
+		-webkit-transition: background-color 0.5s;
+		transition: background-color 0.5s;
+	}
 
 
 /* Form buttons */
 button[type=submit] {
 	font-weight: 700;
-	color: #C49A2C;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	border: 2px solid #C49A2C;
-	background-color: #fff;
+	background-color: #C49A2C;
+	color: #fff;
+
 	padding: 0.9em 2em;
 	margin-right: 1em;
 	font-family: "Raleway", Arial, sans-serif;
@@ -241,8 +234,8 @@ button[type=submit] {
 
 button[type=submit]:hover {
 	border: 2px solid #C49A2C;
-	background-color: #C49A2C;
-	color: #fff;
+	background-color: #fff;
+	color: #C49A2C;
 
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
