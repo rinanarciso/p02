@@ -525,6 +525,7 @@ footer span {
 #banner-home {
 	background: url('../img/banners/banner-home-title.jpg');
 	background-size: cover;
+	background-position: center center;
 	background-repeat: no-repeat;
 	color: #fff;
 	padding: 8em 0;
@@ -601,6 +602,7 @@ footer span {
 
 #home-lookbook {
 	float: right;
+	padding-right: 2em;
 }
 
 
