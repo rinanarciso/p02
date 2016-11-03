@@ -108,7 +108,36 @@ img {
     display: block;
 }
 
-input, textarea {
+
+/********************
+ ****** TABLES ******
+ ********************/
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 600;
+	text-align: left;
+}
+
+
+
+/********************
+ ****** FORMS *******
+ ********************/
+
+ lable {
+ 	display: block;
+ 	font-weight: 700;
+ 	margin-bottom: 0.5em;
+ }
+
+ input, textarea {
 	padding: 1em;
 	font-size: 0.9em;
 	font-family: "Raleway", Arial, sans-serif;
@@ -127,31 +156,38 @@ input, textarea {
 		transition: border 0.8s ease-out;
 	}
 
+form input[type="radio"] {
+	display: inline;
+	margin: 0 0.5em 1.5em 1em;
+	padding: 1em;
+}
 
-/********************
- ****** TABLES ******
- ********************/
-
-table {
+form input[type="text"] {
+	display: block;
 	width: 100%;
-	border-collapse: collapse;
+	margin: 0 0 1.5em;
 }
 
-th {
-	text-transform: uppercase;
-	font-size: 0.9em;
-	font-weight: 600;
+form textarea {
+	display: block;
+	width: 100%;
+	margin: 0 0 1.5em;
+	padding: 1em;
 }
 
+form input[type="email"] {
+	display: block;
+	width: 100%;
+	margin: 0 0 1.5em;
+}
 
+.split-field {
+	padding-left: 0.5em;
+}
 
-/********************
- ****** FORMS *******
- ********************/
-
- lable {
- 	font-weight: 700;
- }
+.no-padding-left-lg {
+	padding-left: 0;
+}
 
 
 /********************
@@ -742,25 +778,6 @@ footer span {
 	background-color: #F3EEDB;
 }
 
-.review-form input[type="radio"] {
-	display: inline;
-	margin: 0.5em 0.5em 1.5em 1em;
-	padding: 1em;
-}
-
-.review-form input[type="text"] {
-	display: block;
-	width: 100%;
-	margin: 1em 0 1.5em;
-}
-
-.review-form textarea {
-	display: block;
-	width: 100%;
-	margin: 1em 0 1.5em;
-	padding: 1em;
-}
-
 .review-submit {
 	text-align: center;
 	margin-top: 1em;
@@ -963,7 +980,6 @@ footer span {
 	.table-cart th {
 		padding: 0 0 2em;
 		color: #9FA2A3;
-		text-align: left;
 		border-bottom: 1px solid #d8d8d8;
 	}
 
@@ -992,31 +1008,52 @@ footer span {
 	margin-top: 2em;
 }
 
+.cart-actions {
+	text-align: right;
+}
+
 
 /********************
  ***** CHECKOUT *****
  ********************/
 
-.checkout-form input[type="radio"] {
-	display: inline;
-	margin-top: 0.5em;
-	margin-left: 1em;
+.checkout {
+	border-right: 1px solid #d8d8d8;
+	padding: 3em 3em 3em 0;
+}
+
+.customer-information, .shipping, .payment {
+	margin-top: 2.5rem;
+}
+
+.shipping ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.shipping li {
+	border: 1px solid #d8d8d8;
 	padding: 1em;
 }
 
-.checkout-form input[type="text"] {
-	display: block;
-	width: 100%;
-	margin: 1em 0 1.5em;
+.shipping li:last-child {
+	border-top: none;
 }
 
-.checkout-form textarea {
-	display: block;
-	width: 100%;
-	margin: 1em 0 1.5em;
-	padding: 1em;
+.shipping input[type="radio"] {
+    display: inline;
+    margin: 0 1em 0em 0;
 }
 
+.order-summary {
+	padding: 3em 0 0 3em;
+}
+
+.summary-item {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #d8d8d8;
+}
 
 /********************
  ****** MOBILE ******
@@ -1028,6 +1065,10 @@ footer span {
   	section {
   		padding: 2em 0;
   	}
+
+  	.no-padding-left-md {
+		padding-left: 0;
+	}
 
   	#banner-home-lookbook {
   		background-size: cover;
