@@ -1059,6 +1059,7 @@ footer span {
 	border-bottom: 1px solid #d8d8d8;
 }
 
+
 /********************
  ****** MOBILE ******
  ********************/
@@ -1076,6 +1077,7 @@ footer span {
 
   	#banner-home-lookbook {
   		background-size: cover;
+  		background-position: bottom center;
   	}
 
   	#home-lookbook {
@@ -1197,6 +1199,17 @@ footer span {
 	#banner-lookbook-fall2016-entry {
  		text-align: center;
  	}
+}
+
+@media(max-width: 64.06em) {
+  	#banner-home-lookbook {
+  		background-size: cover;
+  		background-position: bottom center;
+  	}
+
+  	#home-lookbook {
+  		float: none;
+  	}
 }
 
 @media (max-width: 56.56em) {
