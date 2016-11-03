@@ -55,6 +55,11 @@
 	clear: both;
 }
 
+.hidden {
+	display: none;
+}
+
+
 .hidden-lg {
 	display: none;
 }
