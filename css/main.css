@@ -137,7 +137,7 @@ th {
  	margin-bottom: 0.5em;
  }
 
- input, textarea {
+ input[type="text"], input[type="number"], textarea {
 	padding: 1em;
 	font-size: 0.9em;
 	font-family: "Raleway", Arial, sans-serif;
@@ -148,7 +148,7 @@ th {
 	transition: border 0.8s ease-out;
 }
 
-	input:focus, textarea:focus {
+	input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
 		border: 1px solid #565a5b;
 		outline: none;
 
@@ -228,23 +228,6 @@ form input[type="email"] {
 	border: 2px solid #D0B7A4;
 	background-color: #D0B7A4;
 	color: #fff;
-	padding: 1em 2em;
-	margin-top: 1em;
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-
-}
-
-.listing .btn-addtocart {
-	font-weight: 700;
-	font-size: 0.9em;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	border: 2px solid #D0B7A4;
-	background-color: #D0B7A4;
-	color: #fff;
-	display: block;
 	padding: 1em 2em;
 	margin-top: 1em;
 
@@ -936,32 +919,6 @@ footer span {
 	padding: 1em;
 }
 
-#contact-form input[type=submit] {
-	font-weight: 700;
-	font-size: 0.8em;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	border: 2px solid #C49A2C;
-	background-color: #C49A2C;
-	color: #fff;
-
-	padding: 0.9em 2em;
-	margin-right: 1em;
-	font-family: "Raleway", Arial, sans-serif;
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
-#contact-form input[type=submit]:hover {
-	color: #C49A2C;
-	border: 2px solid #C49A2C;
-	background-color: #fff;
-
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
 
 /********************
  ******* CART *******
@@ -1201,7 +1158,7 @@ footer span {
  	}
 }
 
-@media(max-width: 64.06em) {
+@media(max-width: 67.5em) {
   	#banner-home-lookbook {
   		background-size: cover;
   		background-position: bottom center;
