@@ -556,6 +556,7 @@ footer span {
 #banner-home-about hr {
 	max-width: 40rem;
 	margin-top: 3em;
+	margin-bottom: 0;
 	border: none;
 	border-top: solid #8D8585 1px;
 	text-align: center;
@@ -567,8 +568,7 @@ footer span {
 	position: relative;
 	top: -1.1em;
 	font-size: 1.5em;
-	padding: 0 0.5em;
-	
+	padding: 0;
 }
 
 /* Watches */
