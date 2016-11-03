@@ -195,6 +195,7 @@ form input[type="email"] {
  ********************/
 
 .btn-calltoaction, .btn-submit {
+	font-family: "Raleway", Arial, sans-serif;
 	font-weight: 700;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
@@ -736,7 +737,7 @@ footer span {
 
 .watch-reviews td {
 	vertical-align: top;
-	padding: 1em;
+	padding: 2em 1em;
 	border-bottom: 1px dashed #d8d8d8;
 }
 
@@ -745,6 +746,7 @@ footer span {
 }
 	.review-author ul {
 		padding: 0;
+		margin: 0;
 	}
 	.review-author li {
 		list-style-type: none;
