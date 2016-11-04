@@ -548,9 +548,9 @@ footer span {
 /* Lookbook */
 #banner-home-lookbook {
 	background: url('../img/banners/banner-home-lookbook.jpg');
-	background-size: 50%;
+	background-size: 50% ;
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: center left;
 	background-color: #d8d8d8;
 	overflow: hidden;
 	padding: 6em 0;
@@ -1067,8 +1067,21 @@ footer span {
 }
 
 /********************
- ****** MOBILE ******
+ ****** Media Queries ******
  ********************/
+
+@media only screen
+  and (min-width: 900px)
+  and (max-width: 1056px) {
+  	#banner-home-lookbook {
+  		background-size: cover;
+  		background-position: bottom center;
+  	}
+
+  	#home-lookbook {
+  		float: none;
+  	}
+}
 
 @media only screen 
   and (min-width: 320px) 
@@ -1223,17 +1236,6 @@ footer span {
 	}
 }
 
-@media(max-width: 67.5em) {
-  	#banner-home-lookbook {
-  		background-size: cover;
-  		background-position: bottom center;
-  	}
-
-  	#home-lookbook {
-  		float: none;
-  	}
-}
-
 @media(max-width: 56.25em) {
 	.entry-img-container {
 		padding: 1em;
@@ -1285,6 +1287,7 @@ footer span {
 	}
 
 	li.nav-cart a img {
+		width: 1.5rem;
 		padding-right: 0;
 	}
 }
