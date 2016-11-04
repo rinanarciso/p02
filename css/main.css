@@ -131,11 +131,11 @@ th {
  ****** FORMS *******
  ********************/
 
- lable {
+label {
  	display: block;
  	font-weight: 700;
  	margin-bottom: 0.5em;
- }
+}
 
  input[type="text"], input[type="number"], textarea {
 	padding: 1em;
