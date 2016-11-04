@@ -848,12 +848,14 @@ footer span {
 	height: 30em;
 }
 
-#banner-lookbook-fall2016-entry h1 {
+#banner-lookbook-fall2016-entry h1, 
+#banner-lookbook-fall2016-entry h2 {
  	margin-bottom: 0.5em;
+ 	text-align: left;
 }
 
-#banner-lookbook-fall2016-entry img {
- 	padding: 2em;
+#banner-lookbook-fall2016-entry {
+	text-align: center;
 }
 
 .lookbook-text {
@@ -864,16 +866,43 @@ footer span {
 	padding: 2em 0;
 }
 
-#entry-img1, #entry-img3 {
-	margin: 0 auto;
+.entry-img-container {
+	padding: 2em;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
 }
 
-#entry-img2 {
+.entry-img {
+	display: block;
+	vertical-align: top;
+}
+
+.entry-img-desc {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(208,183,164, 0.8);
+	visibility: hidden;
+	opacity: 0;
+	padding: 2em 2em 1em;
+	margin: 2em;
+	transition: .5s;
+}
+
+.entry-img-desc h1, .entry-img-desc small {
+	color: #fff;
+}
+
+.entry-img-container:hover .entry-img-desc {
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+#entry-img5 {
 	float: right;
-}
-
-.entry-btn {
-	text-align: center;
 }
 
 
