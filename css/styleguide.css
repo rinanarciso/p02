@@ -162,7 +162,8 @@ a:hover {
 
 
 /* Action buttons */
-.btn-calltoaction {
+.btn-calltoaction, .btn-submit {
+	font-family: "Raleway", Arial, sans-serif;
 	font-weight: 700;
 	font-size: 0.9em;
 	letter-spacing: 0.1em;
@@ -179,7 +180,7 @@ a:hover {
 	transition: background-color 0.5s;
 
 }
-	.btn-calltoaction:hover {
+	.btn-calltoaction:hover, .btn-submit:hover {
 		background-color: #fff;
 		color: #C49A2C;
 		border: 2px solid #C49A2C;
@@ -472,6 +473,72 @@ footer span {
 	top: 88%;
 	float: right;
 	font-size: 1em;
+}
+
+
+/* Review form */
+lable {
+ 	display: block;
+ 	font-weight: 700;
+ 	margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="number"], textarea {
+	padding: 1em;
+	font-size: 0.9em;
+	font-family: "Raleway", Arial, sans-serif;
+	letter-spacing: 0.02em;
+	border: 1px solid #d8d8d8;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
+	border: 1px solid #565a5b;
+	outline: none;
+
+	-webkit-transition: border 0.8s ease-out;
+	transition: border 0.8s ease-out;
+}
+
+form input[type="radio"] {
+	display: inline;
+	margin: 0 0.5em 1.5em 1em;
+	padding: 1em;
+}
+
+form input[type="text"] {
+	display: block;
+	width: 100%;
+	margin: 0 0 1.5em;
+}
+
+form textarea {
+	display: block;
+	width: 100%;
+	margin: 0 0 1.5em;
+	padding: 1em;
+}
+
+form input[type="email"] {
+	display: block;
+	width: 100%;
+	margin: 0 0 1.5em;
+}
+
+.review-form {
+	max-width: 50em;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 2em;
+	padding: 2em;
+	background-color: #F3EEDB;
+}
+
+.review-submit {
+text-align: center;
+margin-top: 1em;
 }
 
 

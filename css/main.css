@@ -1085,6 +1085,7 @@ footer span {
   	#banner-home-lookbook {
   		background-size: cover;
   		background-position: bottom center;
+  		color: #fff;
   	}
 
   	#home-lookbook {
@@ -1160,8 +1161,8 @@ footer span {
  	}
 
  	.watch-specs-heading {
-	width: 50%;
-	text-align: left;
+		width: 50%;
+		text-align: left;
 	}
 
 	.watch-specs-info {

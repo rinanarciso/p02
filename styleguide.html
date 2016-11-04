@@ -18,10 +18,9 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<a href="index.html"><img class="logo" src="img/logo.gif" alt="The Horse Watches Logo"></a>
+			<a href="index.html"><img class="logo" src="img/logo.gif" alt="Dexterton Watches Logo"></a>
 			<nav>
 				<ul>
-					<!-- <li class="nav-main"><a href="wireframes/index.html">User-flows</a></li> -->
 					<li class="nav-main"><a href="styleguide.html">Style Guide</a></li>
 					<li class="nav-main"><a href="citations.html">Citations</a></li>
 				</ul>
@@ -43,26 +42,16 @@
 			<div class="wrapper">
 				<h2 class="title">Colors</h2>
 				<div class="grid-row">
-					<div class="grid-col-2of8">
-						<div id="bg-chocolate">
-							<strong>Chocolate</strong><br>#604743
-						</div>
-					</div> <!-- end of .grid-col-2of8 -->
-					<div class="grid-col-2of8">
+					<div class="grid-col-4of8">
 						<div id="bg-mustard">
 							<strong>Mustard</strong><br>#C49A2C
 						</div>
-					</div> <!-- end of .grid-col-2of8 -->
-					<div class="grid-col-2of8">
+					</div> <!-- end of .grid-col-4of8 -->
+					<div class="grid-col-4of8">
 						<div id="bg-kraft">
 							<strong>Kraft</strong><br>#D0B7A4
 						</div>
-					</div> <!-- end of .grid-col-2of8 -->
-					<div class="grid-col-2of8">
-						<div id="bg-cream">
-							<strong>Cream</strong><br>#F3EEDB
-						</div>
-					</div> <!-- end of .grid-col-2of8 -->
+					</div> <!-- end of .grid-col-4of8 -->
 				</div> <!-- end of .grid-row -->
 				<div class="grid-row">
 					<div class="grid-col-2of8">
@@ -396,6 +385,89 @@
 					<span id="lookbook-title">Dexterton x Kathryn Chandria</span>
 					<span id="lookbook-season">Fall 2016</span>
 				</div> <!-- end of #lookbook-fall2016 -->	
+			</div> <!-- end of .wrapper -->
+		</section>
+
+		<!-- Review Form -->
+		<section>
+			<div class="wrapper">
+				<h2 class="title">Review Form</h2>
+				<span class="selector">.review-form</span>
+				<code>
+					&lt;div class="review-form"&gt;<br>
+					&nbsp; &lt;form&gt;<br>
+					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;label for="rating"&gt;Overall Rating&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;1<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;2<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;3<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;4<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;5<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;label for="title"&gt;Subject&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="text" name="title" placeholder="Example: Most Stylish Watch"&gt;<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;label for="review"&gt;Subject&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;textarea name="review" placeholder="Example: I bought this a month ago and am so happy that I did..." rows="6"&gt;&lt;/textarea&gt;<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;label for="name"&gt;First Name&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="text" name="name" id="firstname"&gt;<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;label for="email""&gt;E-mail&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="text" name="email"&gt;<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;label for="recommend-product"&gt;Would you recommend this product to a friend?&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="recommend-product"&gt;Yes<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="recommend-product"&gt;No<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &nbsp; &lt;div class="review-submit"&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input class="btn-submit" type="submit" value="Submit"&gt;<br>
+					&nbsp; &nbsp; &lt;/div&gt;<br>
+					&nbsp; &lt;/form&gt;<br>
+					&lt;/div&gt;
+				</code>
+				<div class="review-form">
+					<form>
+						<div class="form-group">
+							<lable for="rating">Overall Rating</lable>
+							<input type="radio" name="rating">1
+							<input type="radio" name="rating">2
+							<input type="radio" name="rating">3
+							<input type="radio" name="rating">4
+							<input type="radio" name="rating">5
+						</div> <!-- end of .form-group -->
+						<div class="form-group">
+							<lable for="title">Subject</lable>
+							<input type="text" name="title" placeholder="Example: Most Stylish Watch">
+						</div> <!-- end of .form-group -->
+						<div class="form-group">
+							<lable for="review">Review</lable>
+							<textarea name="review" placeholder="Example: I bought this a month ago and am so happy that I did..." rows="6"></textarea>
+						</div> <!-- end of .form-group -->
+						<div class="form-group">
+							<lable for="name">First name</lable>
+							<input type="text" name="name" id="firstname">
+						</div> <!-- end of .form-group -->
+						<div class="form-group">
+							<lable for="email">E-mail</lable>
+							<input type="text" name="email">
+						</div> <!-- end of .form-group -->
+						<div class="form-group">
+							<lable for="recommend-product">Would you recommend this product to a friend?</lable>
+							<input type="radio" name="recommend-product">Yes
+							<input type="radio" name="recommend-product">No
+						</div> <!-- end of .form-group -->
+
+						<div class="review-submit">
+							<input class="btn-submit" type="submit" value="Submit">
+						</div> <!-- end of .review-submit -->
+					</form>
+				</div> <!-- end of .review-form -->
 			</div> <!-- end of .wrapper -->
 		</section>
 
