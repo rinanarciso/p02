@@ -335,6 +335,7 @@ li.nav-cart, .nav-cart a {
 	padding-right: 0;
 }
 	li.nav-cart a img {
+		width: 2rem;
 		float: left;
 		padding-right: 1em;
 		position: relative;
@@ -342,6 +343,7 @@ li.nav-cart, .nav-cart a {
 	}
 
 .logo {
+	width: 15rem;
 	margin-top: 0.8em;
 	display: inline-block;
 	vertical-align: middle;
@@ -479,6 +481,7 @@ footer li {
 }
 
 footer img {
+	width: 3rem;
 	display: inline-block;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-moz-transition: opacity 0.2s ease-in-out;
@@ -1053,6 +1056,10 @@ footer span {
 .summary-item {
 	padding-bottom: 1em;
 	border-bottom: 1px solid #d8d8d8;
+}
+
+.summary-item td {
+	padding: 1em;
 }
 
 /********************
