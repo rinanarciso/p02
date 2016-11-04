@@ -387,27 +387,6 @@ li.nav-cart, .nav-cart a {
 
 
 /********************
- *** CHECKOUT NAV ***
- ********************/
-
-.nav-checkout {
-	background-color: #fff;
-	padding: 3em 3em 6em;
-	border-bottom: none;
-}
-	.nav-checkout-back {
-		float: left;
-		clear: both;
-		margin-top: 1em;
-	}
-
-	.nav-checkout-back img {
-		vertical-align: -5px;
-		display: inline;
-	}
-
-
-/********************
  *** BREADCRUMBS ****
  ********************/
 
@@ -1010,7 +989,11 @@ footer span {
  ***** CHECKOUT *****
  ********************/
 
-.checkout {
+#checkout {
+	padding: 0;
+}
+
+.checkout-body {
 	border-right: 1px solid #d8d8d8;
 	padding: 3em 3em 3em 0;
 }
@@ -1043,9 +1026,44 @@ footer span {
 	padding: 3em 0 0 3em;
 }
 
-.summary-item {
-	padding-bottom: 1em;
-	border-bottom: 1px solid #d8d8d8;
+.order-item td {
+	text-align: right;
+}
+
+.summary-img {
+	width: 5em;
+	padding-right: 1em;
+}
+
+.order-summary .summary-item-description {
+	text-align: left;
+}
+
+.total-summary {
+	margin-top: 2em;
+	border-top: 1px solid #d8d8d8;
+}
+
+.total-summary th {
+	font-weight: 400;
+}
+
+.total-summary td {
+	font-weight: 700;
+}
+
+.summary-subtotal, .summary-total {
+	padding-top: 2em;
+	padding-bottom: 0.25em;
+}
+
+.summary-shipping {
+	padding-top: 0.25em;
+	padding-bottom: 2em;
+}
+
+.total-summary tfoot {
+	border-top: 1px solid #d8d8d8;
 }
 
 /********************
@@ -1090,6 +1108,15 @@ footer span {
 
  	#banner-lookbook-fall2016-entry img {
  		padding: 1em 0;
+	}
+
+	#checkout .wrapper {
+		overflow: visible;
+	}
+
+	.checkout-body {
+		border-right: none;
+		padding: 3em 0 3em 0;
 	}
 
 }
@@ -1190,6 +1217,10 @@ footer span {
 	#banner-lookbook-fall2016-entry {
  		text-align: center;
  	}
+
+ 	.cart-actions .btn-checkout {
+		display: block;
+	}
 }
 
 @media(max-width: 67.5em) {
