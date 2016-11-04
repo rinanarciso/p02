@@ -1203,7 +1203,16 @@ footer span {
   	}
 }
 
-@media (max-width: 56.56em) {
+@media(max-width: 56.25em) {
+	.entry-img-container {
+		padding: 1em;
+	}
+
+ 	.entry-img-desc {
+		padding: 2em 2em 1em;
+		margin: 1em 1em 2em;
+	}
+
 	#contact-info {
 		padding-right: 0;
 		padding-bottom: 3em;
@@ -1258,5 +1267,17 @@ footer span {
 		display: inline-block;
 		float: right;
 		padding-right: 0;
+	}
+
+	.entry-img-desc small {
+		margin-bottom: 0.8em;
+	}
+
+	.entry-img-desc h1 {
+		font-size: 1.5em;
+	}
+
+	.lookbook-text {
+		padding: 0;
 	}
 }
