@@ -327,7 +327,7 @@ li.nav-cart, .nav-cart a {
 	}
 
 .logo {
-	width: 15rem;
+	width: 14rem;
 	margin-top: 0.8em;
 	display: inline-block;
 	vertical-align: middle;
@@ -1019,13 +1019,6 @@ footer span {
 	border-bottom: 1px solid #d8d8d8;
 }
 
-<<<<<<< HEAD
-.summary-item td {
-	padding: 1em;
-}
-=======
->>>>>>> origin/master
-
 /********************
  ****** MOBILE ******
  ********************/
@@ -1045,6 +1038,9 @@ footer span {
   		background-size: cover;
   		background-position: bottom center;
   	}
+  		#banner-home-lookbook #home-lookbook h1, #banner-home-lookbook #home-lookbook h2 {
+  			color: #fff;
+  		}
 
   	#home-lookbook {
 		float: none;
