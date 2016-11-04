@@ -1127,7 +1127,7 @@ footer span {
 
 	.checkout-body {
 		border-right: none;
-		padding: 3em 0 3em 0;
+		padding: 2em 0 2em 0;
 	}
 
 }
@@ -1135,10 +1135,6 @@ footer span {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 560px) {
-
-  	section {
-  		padding: 1em 0;
-  	}
 
   	.btn-addtocart {
   		display: block;
@@ -1236,6 +1232,7 @@ footer span {
  	.cart-actions .btn-checkout {
 		display: block;
 	}
+
 }
 
 @media(max-width: 56.25em) {
