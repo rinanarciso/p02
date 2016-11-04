@@ -367,9 +367,7 @@ li.nav-cart, .nav-cart a {
 }
 
 .menu-mobile-links table img {
-	display: inline;
-	vertical-align: middle;
-	padding-right: 1em;
+	display: none;
 	margin-top: -3px;
 }
 
@@ -1137,6 +1135,10 @@ footer span {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 560px) {
+
+  	section {
+  		padding: 1em 0;
+  	}
 
   	.btn-addtocart {
   		display: block;
