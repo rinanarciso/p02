@@ -683,16 +683,10 @@ footer span {
 	width: 65%
 }
 
- /* Recommended Watches */
-.watch-recommended {
-	text-align: center;
-	padding-bottom: 2.5em;
-}
-
 /* Watch Review */
 .watch-reviews {
 	text-align: center;
-	border-bottom: 1px solid #d8d8d8;
+	/* border-bottom: 1px solid #d8d8d8; */
 }
 
 .watch-reviews table {
@@ -748,6 +742,23 @@ footer span {
 .review-submit {
 	text-align: center;
 	margin-top: 1em;
+}
+
+/* Style image */
+.watch-style {
+	padding-bottom: 2em;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.watch-style .breadcrumbs {
+	padding-top: 1em;
+	border: none;
+}
+
+/* Recommended Watches */
+.watch-recommended {
+	text-align: center;
+	padding-bottom: 2.5em;
 }
 
 
