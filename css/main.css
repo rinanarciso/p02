@@ -374,7 +374,7 @@ header nav {
 
 .logo {
 	width: 14rem;
-	margin-top: 0.5em;
+	margin-top: 0.3em;
 	display: inline-block;
 	vertical-align: middle;
 	float: left;
@@ -1181,6 +1181,7 @@ footer span {
 	li.nav-cart a img {
 		width: 1.5rem;
 		padding-right: 0;
+		margin-top: -0.5em;
 	}
 
   	/* Forms */
@@ -1413,6 +1414,7 @@ footer span {
 
 	.logo-mobile {
 		display: inline-block;
+		margin-top: -0.5em;
 	}
 
 	header nav ul {
@@ -1429,5 +1431,6 @@ footer span {
 		display: inline-block;
 		float: right;
 		padding-right: 0;
+		margin-top: -0.5em;
 	}
 }
