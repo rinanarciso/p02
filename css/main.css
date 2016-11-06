@@ -764,7 +764,7 @@ footer span {
 
 /* Style image */
 .watch-style {
-	padding-bottom: 2em;
+	padding-bottom: 4em;
 	border-bottom: 1px solid #d8d8d8;
 }
 
@@ -876,7 +876,6 @@ footer span {
 }
 
 /* Images */
-
 #entry-img5 {
 	float: right;
 }
