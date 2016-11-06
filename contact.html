@@ -9,7 +9,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Dexterton | Contact</title>
+		<title>Contact Us | Dexterton</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,700">
@@ -50,45 +50,71 @@
 		</section>
 
 		<!-- Contact info -->
-		<section id="banner-contact-information">
+		<section id="contact">
 			<div class="wrapper">
 				<div class="grid-row">
-					<div class="grid-col-3of8" id="contact-info">
-						<h2>E-mail</h2>
-						<p>For all order, website, and general inquiries, e-mail us at <a href="mailto:info@dexterton.com" target="_top">info@dexterton.com</a>.</p>
-						<h2>Phone</h2>
-						<h3>1-888-407-1993</h3>
-						Dexterton Customer Service Hours:
-						<ul>
-							<li>Monday – Friday 6:00am–6:00pm PST</li>
-							<li>Saturday – Sunday 12:00pm-4:00pm PST</li>
-						</ul>
-						<h2>Address</h2>
-						Dexterton Headquarters<br>
-						1206 Wellington Way<br>
-						Vancouver, BC<br>
-						V1P 1M2
-					</div> <!-- end of .grid-col-3of8 #contact-info -->
+					<div class="grid-col-3of8">
+						<div id="contact-info">
+							<div class="contact-item">
+								<h2>E-mail</h2>
+								<p>For all order, website, and general inquiries, e-mail us at <a href="mailto:info@dexterton.com" target="_top">info@dexterton.com</a>.</p>
+							</div>
+
+							<div class="contact-item">
+								<h2>Phone</h2>
+								<p>1-888-407-1993</p>
+								<p>Dexterton Customer Service Hours</p>
+								<ul>
+									<li>Monday – Friday 6:00am–6:00pm PST</li>
+									<li>Saturday – Sunday 12:00pm-4:00pm PST</li>
+								</ul>
+							</div>
+							
+							<div class="contact-item">
+								<h2>Address</h2>
+								<p>Dexterton Headquarters
+								<br>1206 Wellington Way
+								<br>Vancouver, BC
+								<br>V1P 1M2</p>
+							</div>
+						</div>
+					</div> <!-- end of .grid-col-3of8 -->
+
 					<div class="grid-col-5of8">
-						<h2>Contact Form</h2>
 						<div id="contact-form">
+							<h2>Got a question? Leave us a message.</h2>
+
 							<form>
-								<label for="name">Name</label>
-								<input type="text" name="name">
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" name="name">
+								</div>
+
 								<div class="grid-row">
 									<div class="grid-col-4of8">
-										<label for="email">E-mail</label>
-										<input type="text" name="email" id="email">
+										<div class="form-group split-field no-padding-left-lg"> 
+											<label for="email">E-mail</label>
+											<input type="text" name="email" id="email">
+										</div>
 									</div> <!-- end of .grid-col-4of8 -->
 									<div class="grid-col-4of8">
-										<label for="phone">Phone Number</label>
-										<input type="text" name="phone" id="phone">
+										<div class="form-group split-field no-padding-left-md">
+											<label for="phone">Phone Number</label>
+											<input type="text" name="phone" id="phone">
+										</div>
 									</div> <!-- end of .grid-col-4of8 -->
 								</div> <!-- end of .grid-row -->
-								<label for="subject">Subject</label>
-								<input type="text" name="subject">
-								<label for="comments">Comments / Questions</label>
-								<textarea name="comments" rows="6"></textarea>
+								
+								<div class="form-group">
+									<label for="subject">Subject</label>
+									<input type="text" name="subject">
+								</div>
+
+								<div class="form-group">
+									<label for="comments">Comments / Questions</label>
+									<textarea name="comments" rows="6"></textarea>
+								</div>
+
 								<input class="btn-submit" type="submit" value="Send">
 							</form>
 						</div> <!-- end of .contact-form -->

@@ -9,7 +9,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Dexterton | Checkout</title>
+		<title>Checkout | Dexterton</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,700">
@@ -41,23 +41,12 @@
 				</div> <!-- end of .menu-mobile-links -->
 			<!-- end of menu dropdown for smaller screens -->
 
-		<!-- Breadcrumbs -->
-		<div class="breadcrumbs hidden-sm">
-			<div class="wrapper">
-				<ul>
-					<li class="breadcrumb-item-first"><a href="cart.html">Cart</a></li>
-					<li class="breadcrumb-item"><strong>Checkout</strong></li>
-				</ul>
-			</div> <!-- end of .wrapper -->
-		</div> <!-- end of .breadcrumbs .hidden-sm -->
-
-
-		<section id="checkout">
+		<section class="checkout">
 			<div class="wrapper">
 				<div class="grid-row">
 					<div class="grid-col-5of8">
 
-						<!-- Checkout forms -->
+						<!-- Checkout -->
 						<div class="checkout-body">
 							<h1>Checkout</h1>
 							<form>
@@ -73,6 +62,11 @@
 											</div> <!-- end of .form-group -->
 										</div> <!-- end of .grid-col-8of8 -->
 									</div> <!-- end of .grid-row -->
+								</div>
+
+								<!-- Shipping Address -->
+								<div class="shipping">
+									<h2>Shipping Address</h2>
 
 									<div class="grid-row">
 										<div class="grid-col-4of8">
@@ -134,6 +128,10 @@
 												<label class="hidden" for="phonenumber">Phone Number</label>
 												<input type="text" name="phonenumber" placeholder="Phone Number">
 											</div> <!-- end of .form-group -->
+											<div class="form-group">
+												<label class="hidden" for="billing-address">Billing</label>
+												<input type="checkbox" name="billing-address" value="Same as billing address"> Same as billing address
+											</div> <!-- end of .form-group -->
 										</div> <!-- end of .grid-col-8of8 -->
 									</div> <!-- end of .grid-row -->
 								</div>
@@ -180,7 +178,8 @@
 								</div> <!-- end of .payment -->
 
 								<div class="cart-actions">
-									<a class="btn-checkout" href="checkout.html">Review Order</a>
+									<a class="btn-checkout" href="review-order.html">Review Order</a>
+									<a class="cart-link" href="cart.html">&#x3c; Back to Cart</a>
 								</div> <!-- end of .cart-actions -->
 							</form>
 						</div> <!-- end of .checkout-body -->
@@ -203,7 +202,7 @@
 							</div> <!-- end of .order-item -->
 
 							<div class="order-item">
-								<table class="total-summary">
+								<table class="price-summary">
 									<tbody>
 										<tr>
 											<th class="summary-subtotal">Subtotal</th>
@@ -211,13 +210,13 @@
 										</tr>
 										<tr>
 											<th class="summary-shipping">Shipping</th>
-											<td class="summary-shipping">$8.95</td>
+											<td class="summary-shipping">---</td>
 										</tr>
 									</tbody>
 									<tfoot>
 										<tr>
 											<th class="summary-total">Total</th>
-											<td class="summary-total"><span class="money">$157.95</span></td>
+											<td class="summary-total"><span class="money">$149.00</span></td>
 										</tr>
 									</tfoot>
 								</table>

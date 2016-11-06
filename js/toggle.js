@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 // toggles review form
 $(document).ready(function(){
-    $("#review-btn").click(function(){
+    $(".btn-calltoaction.review-btn").click(function(){
         $(".review-form").slideToggle();
     });
 });

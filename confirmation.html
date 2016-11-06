@@ -9,7 +9,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Cart | Dexterton</title>
+		<title>Thank you for your purchase | Dexterton</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,700">
@@ -41,64 +41,66 @@
 				</div> <!-- end of .menu-mobile-links -->
 			<!-- end of menu dropdown for smaller screens -->
 
-		<section id="cart">
+		<section class="checkout">
 			<div class="wrapper">
-				<h1>Your Cart</h1>
-				
-				<table class="table-cart">
-					<thead class="hidden-sm hidden-md">
-						<tr>
-							<th class="cart-item-detail" colspan="2">Item</th>
-							<th class="cart-item-price">Price</th>
-							<th class="cart-item-quanitiy">Qty</th>
-							<th class="cart-item-total hidden-sm hidden-md">Total</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="cart-item-img"><a href="rosegold-grey.html"><img src="img/watches/classic-rosegold-grey-sm.jpg" alt="Dexterton Classic Rose Gold / Grey Watch"></a>
+				<div class="grid-row">
+					<div class="grid-col-5of8">
 
+						<!-- Checkout -->
+						<div class="confirmation-body">
+							<h1>Welcome to the Dexterton Family!</h1>
 
-							<div style="clear: both;"></div>
+							<p><img class="confirmation-checkmark" src="img/checkmark.svg" alt="Your purchase has been confirmed" /></p>
+							<p>Thank your for your purchase! A confirmation email has been sent to stephquinton@gmail.com.</p>
+							<p><strong>Order #8284</strong></p>
+							<a class="btn-calltoaction" href="index.html">Back to Shopping</a>
+							<p><a href="#">Print Receipt</a></p>
+						</div> <!-- end of .checkout-body -->
+					</div> <!-- end of .grid-col-5of8 -->
 
-							</td>
-							<td class="cart-item-detail">
-								<h2>
-									<small>THE CLASSICS</small>
-									Rose Gold / Grey Leather
-								</h2>
-							</td>
-							<td class="cart-item-price"><span class="money">$149.00</span></td>
-							<td class="cart-item-qty"><input type="number" name="update-cart-qty" placeholder="1"></td>
-							<td class="cart-item-total hidden-sm hidden-md"><span class="money">$149.00</span></td>
-						</tr>
-					</tbody>
-				</table>
+					<div class="grid-col-3of8 hidden-md hidden-sm">
+						<div class="order-summary">
+							<div class="order-item">
+								<table class="cart-summary">
+									<tbody>
+										<tr>
+											<td class="summary-img"><img src="img/watches/classic-rosegold-grey-sm.jpg" alt="Dexterton Classic Rose Gold / Grey Watch"></td>
+											<td class="summary-item-description">
+												<small>The Classics</small>
+												<strong>Rose Gold / Grey Leather</strong></td>
+											<td class="summary-price"><strong>$149.00</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div> <!-- end of .order-item -->
 
-				<div class="initiate-checkout">
-					<div class="cart-total">
-						<table>
-							<tbody>
-								<tr>
-									<th><h3>Subtotal</h3></th>
-									<td><span class="money">$149.00</span></td>
-								</tr>
-								<tr>
-									<th><h3>Flat Rate Shipping</h3></th>
-									<td><span class="money">$8.95</span></td>
-								</tr>
-								<tr>
-									<th><h3>Total</h3></th>
-									<td><span class="money">$157.95</span></td>
-								</tr>
-							</tbody>
-						</table>
-					</div> <!-- end of .cart-total -->
-
-					<div class="cart-actions">
-						<a class="btn-checkout" href="checkout.html">Proceed to Checkout</a>
-					</div> <!-- end of .cart-actions -->
-				</div> <!-- end of .initiate-checkout -->
+							<div class="order-item">
+								<table class="price-summary">
+									<tbody>
+										<tr>
+											<th class="summary-subtotal">Subtotal</th>
+											<td class="summary-subtotal">$149.00</td>
+										</tr>
+										<tr>
+											<th class="summary-shipping">Shipping</th>
+											<td class="summary-shipping">---</td>
+										</tr>
+										<tr>
+											<th class="summary-total">Total</th>
+											<td class="summary-total">$149.00</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<th class="summary-paid"><strong>Paid</strong></th>
+											<td class="summary-paid">CAD <span class="money">$149.00</span></td>
+										</tr>
+									</tfoot>
+								</table>
+							</div> <!-- end of .order-item -->
+						</div> <!-- end of .order-summary -->
+					</div> <!-- end of .grid-col-3of8 .hidden-md .hidden-sm -->
+				</div> <!-- end of .grid-row -->
 			</div> <!-- end of .wrapper -->
 		</section>
 
@@ -116,9 +118,5 @@
 				© Rina Narciso &amp; Rosanne Wong &nbsp; | &nbsp; <a href="styleguide.html">Style Guide</a> &nbsp; | &nbsp; <a href="citations.html">Citations</a> &nbsp; | &nbsp; <a href="https://github.com/rinanarciso/p02">GitHub</a>
 			</span>
 		</footer>
-
-		<!-- Toggle script for menu -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="js/toggle.js"></script>
 	</body>
 </html>
