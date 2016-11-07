@@ -227,7 +227,6 @@ textarea {
 	}
 
 /* Form Inputs */
-
 form input[type="text"] {
 	display: block;
 	width: 100%;
@@ -572,7 +571,7 @@ footer span {
 	background-color: #d8d8d8;
 }
 
- /* Watch Listings */
+/* Watch Listings */
 .listing {
 	margin: 2.5rem 0;
 }
@@ -684,7 +683,7 @@ footer span {
 		color: #fff;
 	}
 
- /* Watch Specs */
+/* Watch Specs */
 .watch-specification {
 	background-color: #f5f5f5;
 }
@@ -693,7 +692,7 @@ footer span {
 	padding: 1em;
 }
 
- /* Watch Specs Table*/
+/* Watch Specs Table */
 .watch-specs-heading {
 	width: 35%;
 	text-align: left;
@@ -709,7 +708,7 @@ footer span {
 	border-bottom: 1px solid #d8d8d8;
 }
 
- /* Watch Review Table */
+/* Watch Review Table */
 .watch-reviews table {
 	text-align: left;
 	margin: 1.5em 0;
@@ -834,6 +833,7 @@ footer span {
 /********************
  ** LOOKBOOK 2016 ***
  ********************/
+ 
 #lookbook-fall2016-entry {
 	text-align: center;
 	padding-top: 0;

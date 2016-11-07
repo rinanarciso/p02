@@ -19,12 +19,20 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<a href="index.html"><img class="logo" src="img/logo.svg" alt="Dexterton Watches Logo"></a>
 			<nav>
-				<ul>
+				<!-- Desktop/Tablet Nav -->
+				<ul class="main-nav">
+					<li class="nav-logo"><a href="index.html"><img class="logo" src="img/logo.svg" alt="Dexterton Watches Logo"></a></li>
 					<li class="nav-main"><a href="styleguide.html">Style Guide</a></li>
 					<li class="nav-main"><a href="citations.html">Citations</a></li>
-				</ul>
+					<li class="nav-toggle hidden-lg hidden-md"><a>&#9776;</a></li>
+				</ul> <!-- end of .main-nav -->
+
+				<!-- Mobile Nav -->
+				<ul class="mobile-nav">
+					<li class="nav-main"><a href="styleguide.html">Style Guide</a></li>
+					<li class="nav-main"><a href="citations.html">Citations</a></li>
+				</ul> <!-- end of .mobile-nav -->
 			</nav>
 		</header>
 
@@ -256,26 +264,36 @@
 				<span class="selector">header, nav</span>
 				<code>
 					&lt;header&gt;<br>
-					&nbsp; &lt;a href="#"&gt;&lt;img class="logo" src="img/logo.gif" alt="Dexterton Watches Logo"&gt;<br>
+					&nbsp; &lt;a href="#"&gt;&lt;img class="logo" src="img/logo.svg" alt="Dexterton Watches Logo"&gt;<br>
 					&nbsp; &lt;nav&gt;<br>
 					&nbsp; &nbsp; &lt;ul&gt;<br>
 					&nbsp; &nbsp; &nbsp; &lt;li class="nav-main"&gt;&lt;a href="#"&gt;Watches&lt;/a&gt;&lt;/li&gt;<br>
 					&nbsp; &nbsp; &nbsp; &lt;li class="nav-main"&gt;&lt;a href="#"&gt;Lookbook&lt;/a&gt;&lt;/li&gt;<br>
 					&nbsp; &nbsp; &nbsp; &lt;li class="nav-main"&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;<br>
-					&nbsp; &nbsp; &nbsp; &lt;li class="nav-cart"&gt;&lt;img src="img/icon-cart.png" alt="View your cart"&gt;&lt;a href="#"&gt;Cart&lt;/a&gt;&lt;/li&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;li class="nav-cart"&gt;&lt;img src="img/icon-cart.svg" alt="View your cart"&gt;&lt;a href="#"&gt;Cart&lt;/a&gt;&lt;/li&gt;<br>
 					&nbsp; &nbsp; &lt;/ul&gt;<br>
 					&nbsp; &lt;/nav&gt;<br>
 					&lt;/header&gt;
 				</code>
 				<header>
-					<a href="#"><img class="logo" src="img/logo.gif" alt="Dexterton Watches Logo"></a>
 					<nav>
-						<ul>
-							<li class="nav-main"><a href="#">Watches</a></li>
-							<li class="nav-main"><a href="#">Lookbook</a></li>
-							<li class="nav-main"><a href="#">Contact</a></li>
-							<li class="nav-cart"><img src="img/icon-cart.png" alt="View your cart"><a href="#">Cart</a></li>
-						</ul>
+						<!-- Desktop/Tablet Nav -->
+						<ul class="main-nav">
+							<li class="nav-logo"><a href="index.html"><img class="logo" src="img/logo.svg" alt="Dexterton Watches Logo"></a></li>
+							<li class="nav-main"><a href="watches.html">Watches</a></li>
+							<li class="nav-main"><a href="lookbook.html">Lookbook</a></li>
+							<li class="nav-main"><a href="contact.html">Contact</a></li>
+							<li class="nav-cart"><a href="cart.html"><img src="img/icon-cart.svg" alt="View your cart"><span>Cart</span></a></li>
+							<li class="nav-toggle hidden-lg hidden-md"><a>&#9776;</a></li>
+						</ul> <!-- end of .main-nav -->
+
+						<!-- Mobile Nav -->
+						<ul class="mobile-nav">
+							<li><a href="watches.html">Watches</a></li>
+							<li><a href="lookbook.html">Lookbook</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="cart.html">Cart</a></li>
+						</ul> <!-- end of .mobile-nav -->
 					</nav>
 				</header>
 			</div> <!-- end of .wrapper -->
@@ -291,13 +309,13 @@
 					&nbsp; &lt;h4&gt;Sign up to receive the latest updates&lt;/h4&gt;<br>
 					&nbsp; &lt;input type="text" id="input-field" placeholder="Enter your e-mail address"&gt;<br>
 					&nbsp; &lt;ul&gt;<br>
-					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-facebook.png" alt="Like Dexterton Watches on Facebook!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
-					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-twitter.png" alt="Follow Dexterton Watches on Twitter!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
-					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-pinterest.png" alt="See How to Style Your Dexterton Watch on Pinterest!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
-					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-instagram.png" alt="Follow Dexterton Watches on Instagram!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
+					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-facebook.svg" alt="Like Dexterton Watches on Facebook!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
+					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-twitter.svg" alt="Follow Dexterton Watches on Twitter!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
+					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-pinterest.svg" alt="See How to Style Your Dexterton Watch on Pinterest!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
+					&nbsp; &nbsp; &lt;li&gt;&lt;img src="img/icon-instagram.svg" alt="Follow Dexterton Watches on Instagram!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
 					&nbsp; &lt;/ul&gt;<br>
 					&nbsp; &lt;span&gt;<br>
-					&nbsp; &nbsp; © Rina Narciso & Rosanne Wong | &lt;a href="#"&gt;Style Guide&lt;/a&gt; | &lt;a href="#"&gt;Citations&lt;/a&gt; | &lt;a href="#"&gt;GitHub&lt;/a&gt;<br>
+					&nbsp; &nbsp; © Rina Narciso &amp; Rosanne Wong | &lt;a href="#"&gt;Style Guide&lt;/a&gt; | &lt;a href="#"&gt;Citations&lt;/a&gt; | &lt;a href="#"&gt;GitHub&lt;/a&gt;<br>
 					&nbsp; &lt;/span&gt;<br>
 					&lt;/footer&gt;
 				</code>
@@ -305,10 +323,10 @@
 					<h4>Sign up to receive the latest updates</h4>
 					<input type="text" id="input-field" placeholder="Enter your e-mail address">
 					<ul>
-						<li><a href="#"><img src="img/icon-facebook.png" alt="Like Dexterton Watches on Facebook!"></a></li>
-						<li><a href="#"><img src="img/icon-twitter.png" alt="Follow Dexterton Watches on Twitter!"></a></li>
-						<li><a href="#"><img src="img/icon-pinterest.png" alt="See How to Style Your Dexterton Watch on Pinterest!"></a></li>
-						<li><a href="#"><img src="img/icon-instagram.png" alt="Follow Dexterton Watches on Instagram!"></a></li>
+						<li><a href="#"><img src="img/icon-facebook.svg" alt="Like Dexterton Watches on Facebook!"></a></li>
+						<li><a href="#"><img src="img/icon-twitter.svg" alt="Follow Dexterton Watches on Twitter!"></a></li>
+						<li><a href="#"><img src="img/icon-pinterest.svg" alt="See How to Style Your Dexterton Watch on Pinterest!"></a></li>
+						<li><a href="#"><img src="img/icon-instagram.svg" alt="Follow Dexterton Watches on Instagram!"></a></li>
 					</ul>
 					<span>
 						© Rina Narciso &amp; Rosanne Wong &nbsp; | &nbsp; <a href="#">Style Guide</a> &nbsp; | &nbsp; <a href="#">Citations</a> &nbsp; | &nbsp; <a href="#">GitHub</a>
