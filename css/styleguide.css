@@ -135,15 +135,35 @@ a:hover {
 
 
 /* Breadcrumbs */
-.breadcrumbs, .breadcrumbs a, .breadcrumbs a:hover {
+.breadcrumbs {
+	font-size: 0.7rem;
+	padding: 0.5em 0;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.breadcrumbs ul {
+	padding: 0 1em;
+	list-style-type: none
+}
+
+	.breadcrumbs ul li {
+		display: inline-block;
+	}
+
+.breadcrumbs a,
+.breadcrumbs a:hover {
 	color: #565a5b;
 	text-decoration: none;
-	font-size: 0.9em;
 }
 
 .breadcrumbs strong {
 	color: #D0B7A4;
-	font-size: 0.9em;
+	
+}
+
+.breadcrumb-item::before {
+	content: "\203a\00a0";
+    padding: 0 5px;
 }
 
 
