@@ -355,6 +355,7 @@ li.nav-cart, .nav-cart a {
 	display: inline-block;
 	vertical-align: middle;
 	float: left;
+	width: 14rem;
 }
 
 

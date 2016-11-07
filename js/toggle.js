@@ -5,8 +5,8 @@
 
 // toggles menu icon for smaller screens
 $(document).ready(function(){
-    $(".menu-mobile").click(function(){
-        $(".menu-mobile-links").slideToggle("slow");
+    $(".nav-toggle").click(function(){
+        $(".mobile-nav").slideToggle("slow");
     });
 });
 
