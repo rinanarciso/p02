@@ -291,6 +291,11 @@ p {
 	line-height: 1.5em;	
 }
 
+.biliography {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
 
 /* Lists */
 #numbered-list {
