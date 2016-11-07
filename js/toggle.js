@@ -10,6 +10,13 @@ $(document).ready(function(){
     });
 });
 
+// toggles order summary for smaller screens
+$(document).ready(function(){
+    $(".summary-toggle").click(function(){
+        $(".mobile-order-summary").slideToggle("slow");
+    });
+});
+
 // toggles review form
 $(document).ready(function(){
     $(".btn-calltoaction.review-btn").click(function(){
