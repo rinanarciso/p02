@@ -146,10 +146,10 @@
 				<span class="selector">input</span>
 				<code>
 					&lt;h4&gt;Sign up to receive the latest updates&lt;/h4&gt;<br>
-					&lt;input type="text" id="text-input" placeholder="Enter your e-mail address"&gt;
+					&lt;input type="text" class="text-input" placeholder="Enter your e-mail address"&gt;
 				</code>
 				<h4>Sign up to receive the latest updates</h4>
-				<input type="text" id="input-field" placeholder="Enter your e-mail address">
+				<input type="text" class="input-field" placeholder="Enter your e-mail address">
 			</div> <!-- end of .wrapper -->
 		</section>
 
@@ -309,7 +309,7 @@
 				<code>
 					&lt;footer&gt;<br>
 					&nbsp; &lt;h4&gt;Sign up to receive the latest updates&lt;/h4&gt;<br>
-					&nbsp; &lt;input type="text" id="input-field" placeholder="Enter your e-mail address"&gt;<br>
+					&nbsp; &lt;input type="text" class="input-field" placeholder="Enter your e-mail address"&gt;<br>
 					&nbsp; &lt;ul&gt;<br>
 					&nbsp; &nbsp; &lt;li&gt;&lt;a&gt;&lt;img src="img/icon-facebook.svg" alt="Like Dexterton Watches on Facebook!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
 					&nbsp; &nbsp; &lt;li&gt;&lt;a&gt;&lt;img src="img/icon-twitter.svg" alt="Follow Dexterton Watches on Twitter!"&gt;&lt;/a&gt;&lt;/li&gt;<br>
@@ -323,7 +323,7 @@
 				</code>
 				<footer>
 					<h4>Sign up to receive the latest updates</h4>
-					<input type="text" id="input-field" placeholder="Enter your e-mail address">
+					<input type="text" class="input-field" placeholder="Enter your e-mail address">
 					<ul>
 						<li><a href="#"><img src="img/icon-facebook.svg" alt="Like Dexterton Watches on Facebook!"></a></li>
 						<li><a href="#"><img src="img/icon-twitter.svg" alt="Follow Dexterton Watches on Twitter!"></a></li>
@@ -432,12 +432,12 @@
 					&lt;div class="review-form"&gt;<br>
 					&nbsp; &lt;form&gt;<br>
 					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
-					&nbsp; &nbsp; &nbsp; &lt;label for="rating"&gt;Overall Rating&lt;/label&gt;<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;1<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;2<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;3<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;4<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating"&gt;5<br>
+					&nbsp; &nbsp; &nbsp; &lt;span class="label"&gt;Overall Rating&lt;/span&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating5" id="rating5"&gt;&lt;label class="radio-input" for="rating5"&gt;5&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating4" id="rating4"&gt;&lt;label class="radio-input" for="rating4"&gt;4&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating3" id="rating3"&gt;&lt;label class="radio-input" for="rating3"&gt;3&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating2" id="rating2"&gt;&lt;label class="radio-input" for="rating2"&gt;2&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="rating1" id="rating1"&gt;&lt;label class="radio-input" for="rating1"&gt;1&lt;/label&gt;<br>
 					&nbsp; &nbsp; &lt;/div&gt;<br>
 					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
 					&nbsp; &nbsp; &nbsp; &lt;label for="title"&gt;Subject&lt;/label&gt;<br>
@@ -457,8 +457,8 @@
 					&nbsp; &nbsp; &lt;/div&gt;<br>
 					&nbsp; &nbsp; &lt;div class="form-group"&gt;<br>
 					&nbsp; &nbsp; &nbsp; &lt;label for="recommend-product"&gt;Would you recommend this product to a friend?&lt;/label&gt;<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="recommend-product"&gt;Yes<br>
-					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="recommend-product"&gt;No<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="recommend-product-yes" id="recommend-product-yes"&gt;&lt;label class="radio-input" for="recommend-product-yes"&gt;Yes&lt;/label&gt;<br>
+					&nbsp; &nbsp; &nbsp; &lt;input type="radio" name="recommend-product-no" id="recommend-product-no"&gt;&lt;label class="radio-input" for="recommend-product-no"&gt;No&lt;/label&gt;<br>
 					&nbsp; &nbsp; &lt;/div&gt;<br>
 					&nbsp; &nbsp; &lt;div class="review-submit"&gt;<br>
 					&nbsp; &nbsp; &nbsp; &lt;input class="btn-submit" type="submit" value="Submit"&gt;<br>
@@ -469,33 +469,33 @@
 				<div class="review-form">
 					<form>
 						<div class="form-group">
-							<label for="rating">Overall Rating</label>
-							<input type="radio" name="rating">1
-							<input type="radio" name="rating">2
-							<input type="radio" name="rating">3
-							<input type="radio" name="rating">4
-							<input type="radio" name="rating">5
+							<span class="label">Overall Rating</span>
+							<input type="radio" name="rating5" id="rating5"><label class="radio-input" for="rating5">5</label>
+							<input type="radio" name="rating5" id="rating4"><label class="radio-input" for="rating4">4</label>
+							<input type="radio" name="rating5" id="rating3"><label class="radio-input" for="rating3">3</label>
+							<input type="radio" name="rating5" id="rating2"><label class="radio-input" for="rating2">2</label>
+							<input type="radio" name="rating5" id="rating1"><label class="radio-input" for="rating1">1</label>
 						</div> <!-- end of .form-group -->
 						<div class="form-group">
 							<label for="title">Subject</label>
-							<input type="text" name="title" placeholder="Example: Most Stylish Watch">
+							<input type="text" name="title" id="title" placeholder="Example: Most Stylish Watch">
 						</div> <!-- end of .form-group -->
 						<div class="form-group">
 							<label for="review">Review</label>
-							<textarea name="review" placeholder="Example: I bought this a month ago and am so happy that I did..." rows="6"></textarea>
+							<textarea name="review" id="review" placeholder="Example: I bought this a month ago and am so happy that I did..." rows="6"></textarea>
 						</div> <!-- end of .form-group -->
 						<div class="form-group">
-							<label for="name">First name</label>
+							<label for="firstname">First name</label>
 							<input type="text" name="name" id="firstname">
 						</div> <!-- end of .form-group -->
 						<div class="form-group">
 							<label for="email">E-mail</label>
-							<input type="text" name="email">
+							<input type="text" name="email" id="email">
 						</div> <!-- end of .form-group -->
 						<div class="form-group">
-							<label for="recommend-product">Would you recommend this product to a friend?</label>
-							<input type="radio" name="recommend-product">Yes
-							<input type="radio" name="recommend-product">No
+							<p class="label">Would you recommend this product to a friend?</p>
+							<input type="radio" name="recommend-product-yes" id="recommend-product-yes"><label class="radio-input" for="recommend-product-yes">Yes</label>
+							<input type="radio" name="recommend-product-no" id="recommend-product-no"><label class="radio-input" for="recommend-product-no">No</label>
 						</div> <!-- end of .form-group -->
 
 						<div class="review-submit">
@@ -541,17 +541,15 @@
 					</div> <!-- end of .grid-col-2of8 -->
 				</div>  <!-- end of .grid-row -->		
 			</div> <!-- end of .wrapper -->
-		</section>
-
-		<!-- Toggle script for review form -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="js/toggle.js"></script>
-
-		<!-- Footer -->
-		<section>
+			
+			<!-- Footer -->
 			<div class="wrapper">
 				© Rina Narciso &amp; Rosanne Wong &nbsp; | &nbsp; IAT 339 - D101 &nbsp; | &nbsp; Fall 2016
 			</div> <!-- end of .wrapper -->
 		</section>
+
+			<!-- Toggle script for review form -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script src="js/toggle.js"></script>
 	</body>
 </html>
