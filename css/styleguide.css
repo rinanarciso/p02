@@ -11,7 +11,7 @@ body {
 	color: #565a5b;
 	font-weight: 400;
 	letter-spacing: 0.02em;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 section {
@@ -24,6 +24,7 @@ footer .wrapper {
 
 .footerb {
 	background-color: #fff;
+	padding: 0;
 }
 
 .wrapper {
@@ -305,12 +306,12 @@ p {
 }
 
 
-/* Lists */
-#numbered-list {
+/* Two-Column */
+.col-left {
 	padding-right: 1em;
 }
 
-#bulleted-list {
+.col-right {
 	padding-left: 1em;
 }
 
@@ -507,10 +508,6 @@ footer span {
 
 
 /* Lookbook entry */
-#lookbook-entries a:hover {
-	text-decoration: none;
-}
-
 .lookbook-entry-item {
 	background-position: center bottom;
 	height: 30rem;
@@ -524,31 +521,12 @@ footer span {
 	margin-bottom: 2em;
 }
 
-#lookbook-spring2016 {
-	background-image: url('../img/lookbooks/lookbook-spring2016.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #565A5B;
-	margin-bottom: 2em;
-}
-
-#lookbook-fall2015 {
-	background-image: url('../img/lookbooks/lookbook-fall2015.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #fff;
-}
-
 .lookbook-title {
 	padding: 1em;
 	position: relative;
 	top: 88%;
 	font-size: 2em;
 	letter-spacing: 0.04em;
-}
-
-#lookbook-entry a:hover {
-	text-decoration: none;
 }
 
 .lookbook-season {
@@ -597,26 +575,30 @@ input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
 
 form input[type="radio"] {
 	display: inline;
-	margin: 0 0.5em 1.5em 1em;
+	margin: 0 1em;
 	padding: 1em;
 }
 
 form input[type="text"] {
 	display: block;
 	width: 100%;
-	margin: 0 0 1.5em;
+	margin: 0;
 }
 
 form textarea {
 	display: block;
 	width: 100%;
-	margin: 0 0 1.5em;
+	margin: 0;
 	padding: 1em;
 }
 
 form input[type="email"] {
 	display: block;
 	width: 100%;
+	margin: 0;
+}
+
+.form-group {
 	margin: 0 0 1.5em;
 }
 
@@ -734,12 +716,12 @@ form input[type="email"] {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 900px) {
-	#numbered-list {
-		padding-right: 0;
+	.col-left {
+		padding-right: 0em;
 	}
 
-	#bulleted-list {
-		padding-left: 0;
+	.col-right {
+		padding-left: 0em;
 	}
 
 	.grid-col-3of8.style {

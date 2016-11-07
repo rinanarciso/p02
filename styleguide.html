@@ -139,17 +139,31 @@
 			</div> <!-- end of .wrapper -->
 		</section>
 
-		<!-- Text input fields -->
+		<!-- Input fields -->
 		<section>
 			<div class="wrapper">
-				<h2 class="title">Text Input Fields</h2>
-				<span class="selector">input</span>
-				<code>
-					&lt;h4&gt;Sign up to receive the latest updates&lt;/h4&gt;<br>
-					&lt;input type="text" class="text-input" placeholder="Enter your e-mail address"&gt;
-				</code>
-				<h4>Sign up to receive the latest updates</h4>
-				<input type="text" class="input-field" placeholder="Enter your e-mail address">
+				<div class="grid-row">
+					<div class="grid-col-4of8 col-left">
+						<h2 class="title">Text Input Fields</h2>
+						<span class="selector">input[type="text"]</span>
+						<code>
+							&lt;label for="text-field"&gt;Label&lt;/label&gt;<br>
+							&lt;input type="text" name="text-field" id="text-field" placeholder="Input Text Field"&gt;
+						</code>
+						<label for="text-field">Label</label>
+						<input type="text" name="text-field" id="text-field" placeholder="Input Text Field">
+					</div> <!-- end of .grid-col-4of8 -->
+					<div class="grid-col-4of8 col-right">
+						<h2 class="title">Radio Input Fields</h2>
+						<span class="selector">input[type="radio"]</span>
+						<code>
+							&lt;input type="radio" name="radio-btn" id="radio-btn"&gt;<br>
+							&lt;label for="radio-btn"&gt;Input Radio Button&lt;/label&gt;
+						</code>
+						<input type="radio" name="radio-btn" id="radio-btn">
+						<label class="radio-input" for="radio-btn">Input Radio Button</label>
+					</div> <!-- end of .grid-col-4of8 -->
+				</div> <!-- end of .grid-row -->
 			</div> <!-- end of .wrapper -->
 		</section>
 
@@ -217,7 +231,7 @@
 		<section>
 			<div class="wrapper">
 				<div class="grid-row">
-					<div class="grid-col-4of8" id="numbered-list">
+					<div class="grid-col-4of8 col-left">
 						<h2 class="title">Numbered Lists</h2>
 						<span class="selector">ol</span>
 						<code>
@@ -235,7 +249,7 @@
 							<li>La Bohème Full Black</li>
 						</ol>
 					</div> <!-- end of .grid-col-4of8 #numbered-list -->
-					<div class="grid-col-4of8" id="bulleted-list">
+					<div class="grid-col-4of8 col-right">
 						<h2 class="title">Bulleted Lists</h2>
 						<span class="selector">ul</span>
 						<code>
