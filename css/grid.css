@@ -100,7 +100,7 @@
 }
 
 @media only screen 
-  and (min-width: 320px) 
+  and (min-width: 320px)
   and (max-width: 606px) {
 
   	.grid-col-3of8 {
@@ -109,6 +109,43 @@
 
 	.hidden-lg {
 		display: block;
+	}
+
+  	.hidden-sm {
+  		display: none;
+  	}
+
+}
+
+@media only screen 
+  and (max-width: 320px) {
+  	.grid-col-1of8 {
+		width: 15%;
+	}
+
+  	.grid-col-2of8 {
+		width: 50%;
+	}
+
+	.grid-col-3of8 {
+		width: 100%;
+	}
+
+	.grid-col-4of8 {
+		width: 100%;
+		clear: left;
+	}
+
+	.grid-col-5of8 {
+		width: 100%;
+	}
+
+	.hidden-lg {
+		display: block;
+	}
+
+	.hidden-md {
+		display: none;
 	}
 
   	.hidden-sm {

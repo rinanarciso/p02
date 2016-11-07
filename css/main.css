@@ -1539,3 +1539,260 @@ footer span {
 		margin-bottom: 0;
 	}
 }
+
+@media only screen 
+   and  (max-width: 320px) {
+   	section {
+  		padding: 2em 0;
+  	}
+
+	nav {
+		padding: 1em 1em 0.6em;
+	}
+
+  	/* Forms */
+  	.no-padding-left-md {
+		padding-left: 0;
+	}
+
+  	/* Buttons */
+  	.btn-addtocart {
+  		display: block;
+  	}
+
+  	.cart-actions .btn-checkout {
+		display: block;
+	}
+
+	#empty-cart .cart-actions .btn-checkout {
+		display: inline-block;
+	}
+
+	.main-nav .nav-main,
+	.main-nav .nav-cart {
+		display: none;
+	}
+
+	.nav-toggle {
+		display: inline-block;
+	}
+
+	/* Home */
+	#home-title {
+ 		max-width: 100%;
+ 	}
+
+ 	/* Product Page */
+ 	.mobile-watch-thumbnail {
+ 		width: 65%;
+		list-style-type: none;
+		display: block;
+		padding: 0;
+		margin: 1em auto 0 auto;
+	}
+		.mobile-watch-thumbnail-item {
+			float: left;
+			display: inline-block;
+			width: 33%;
+			padding: 0 0.5em;
+		}
+
+ 	.watch-img-main {
+ 		padding: 0;
+ 	}
+
+ 	.watch-description {
+	    padding: 1em 0;
+	}
+
+	.watch-lookbook li {
+		margin: 1em 0;
+	}
+
+	/* Home */
+	#banner-home-lookbook {
+  		background-size: cover;
+  		background-position: bottom center;
+  	}
+  		#banner-home-lookbook #home-lookbook h1,
+  		#banner-home-lookbook #home-lookbook h2 {
+  			color: #fff;
+  		}
+
+  	#home-lookbook {
+		float: none;
+	}
+
+ 	/* Lookbooks */
+ 	#lookbook-entries {
+		padding: 2em 0;
+	}
+
+ 	.lookbook-entry-item {
+ 		text-align: center;
+ 		color: #fff;
+ 		height: 15rem;
+ 	}
+
+ 	.entry-img-container {
+ 		padding: 1em 0;
+ 	}
+
+ 	.entry-img-desc {
+		padding: 2em 2em 1em;
+		margin: 1em 0;
+	}
+
+ 	.lookbook-title {
+ 		margin: 0 1em;
+ 		color: #fff;
+ 		display: block;
+ 		padding: 0;
+		top: 30%;
+		font-size: 2em;
+		letter-spacing: 0.04em;
+	}
+
+	.lookbook-season {
+		color: #fff;
+		display: block;
+		padding: 0;
+		position: relative;
+		top: 45%;
+		float: none;
+		font-size: 1em;
+	}
+
+ 	/* Lookbook Fall 2016 */
+ 	#banner-lookbook-fall2016-entry {
+ 		text-align: center;
+ 	}
+
+ 	.entry-img-desc small {
+		margin-bottom: 0.8em;
+	}
+
+	.entry-img-desc h3 {
+		font-size: 1.5em;
+	}
+
+ 	/* Product Page */
+ 	.watch-price {
+ 		padding-bottom: 0;
+ 	}
+
+ 	.watch-specs-heading {
+		width: 50%;
+		text-align: left;
+	}
+
+	.watch-specs-info {
+		width: 50%;
+	}
+
+	.watch-reviews h1 {
+		margin-bottom: 0;
+	}
+
+	.watch-reviews table {
+		margin-top: 0;
+	}
+
+	.watch-reviews td {
+		border: 0;
+		padding: 0;
+	}
+
+	.review-author,
+	.review-comment {
+		width: 100%;
+		display: block;
+	}
+
+	.watch-reviews .review-author {
+		padding-top: 2em;
+	}
+
+	.watch-reviews .review-comment {
+		padding: 1em 0;
+		border-bottom: 1px dashed #d8d8d8;
+	}
+
+	.review-recommend {
+		margin-bottom: 1em;
+	}
+
+	/* Cart */
+ 	.table-cart tr {
+ 		overflow: hidden;
+ 		display: block;
+ 		clear: left;
+ 		margin-bottom: 1.5em;
+ 	}
+
+ 	.table-cart tbody tr:not(:last-child) {
+		border-bottom: 1px solid #d8d8d8;
+		padding-bottom: 1em;
+	}
+
+ 	.table-cart td {
+		padding: 0;
+		border: none;
+	}
+
+ 	.cart-item-img {
+ 		display: block;
+ 		float: left;
+ 		margin-right: 1em;
+ 	}
+
+  	.cart-item-detail {
+		display: block;
+	}
+
+	.cart-item-price {
+		display: inline-block;
+		margin-top: 0.5em;
+	}
+
+	.cart-item-qty {
+		display: inline-block;
+		position: absolute;
+    	right: 1em;
+	}
+
+	.table-cart td.cart-item-remove {
+		display: block;
+		clear: left;
+		padding-top: 1em;
+		text-align: right;
+	}
+
+  	.initiate-checkout {
+  		width: 100%;
+ 	}
+
+  	.cart-actions {
+  		text-align: center;
+  	}
+
+  	.cart-link {
+  		float: none;
+  	}
+
+  	/* Checkout Process */
+	.checkout-body .customer-information,
+	.checkout-body .shipping,
+	.checkout-body .payment {
+		margin-bottom: 0;
+	}
+
+	.checkout-body,
+	.review-body,
+	.confirmation-body {
+		border: none;
+		padding-right: 0;
+	}
+
+
+}
