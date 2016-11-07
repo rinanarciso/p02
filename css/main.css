@@ -561,6 +561,7 @@ footer span {
  ********************/
 
 /* Title Sections */
+#lookbook,
 #classic-watches, 
 #original-watches {
 	padding: 0;
@@ -784,7 +785,6 @@ footer span {
  ***** LOOKBOOK *****
  ********************/
 
-/* Title */
 #banner-lookbook {
 	background: url('../img/banners/banner-titles.jpg');
 	background-size: cover;
@@ -795,6 +795,10 @@ footer span {
 }
 
 /* Entries */
+#lookbook-entries {
+	padding: 4em 0;
+}
+
 #lookbook-entries a:hover {
 	text-decoration: none;
 }
@@ -1223,6 +1227,11 @@ footer span {
 		float: none;
 	}
 
+	/* Lookbooks */
+	#lookbook-entries {
+		padding: 3em 0;
+	}
+
 	/* Fall Lookbook 2016 */
 	#banner-lookbook-fall2016 {
  		margin-bottom: 2em;
@@ -1320,6 +1329,10 @@ footer span {
 	}
 
  	/* Lookbooks */
+ 	#lookbook-entries {
+		padding: 2em 0;
+	}
+
  	.lookbook-entry-item {
  		text-align: center;
  		color: #fff;
