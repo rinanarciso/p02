@@ -97,7 +97,7 @@ small {
 }
 
 	h1 small {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	h2 small {
@@ -296,7 +296,7 @@ nav {
 	.main-nav li {
 		float: left;
 		margin: 0;
-		padding: 0.75em 1.5em;
+		padding: 0.75em 2em;
 	}
 
 		.main-nav li a {
@@ -654,9 +654,35 @@ footer span {
 	}
 
 .watch-price {
-	font-size: 2em;
-	padding-bottom: 0.5em;
+	font-size: 1.5em;
 }
+
+.watch-lookbook {
+	list-style-type: none;
+	margin: 2em 0 0 0;
+	padding: 2em 0 0 0;
+	border-top: 1px dashed #d8d8d8;
+}
+	
+	.watch-lookbook li {
+		display: inline-block;
+		margin: 0 0.5em 0 0;
+	}
+
+	.watch-lookbook li a {
+		border: 1px solid #d8d8d8;
+		padding: 0.5em 1em;
+	}
+
+	.watch-lookbook li a {
+		text-decoration: none;
+	}
+
+	.watch-lookbook li a:hover {
+		text-decoration: none;
+		background-color: #d8d8d8;
+		color: #fff;
+	}
 
  /* Watch Specs */
 .watch-specification {
@@ -680,7 +706,7 @@ footer span {
 /* Watch Review */
 .watch-reviews {
 	text-align: center;
-	/* border-bottom: 1px solid #d8d8d8; */
+	border-bottom: 1px solid #d8d8d8;
 }
 
  /* Watch Review Table */
@@ -695,19 +721,13 @@ footer span {
 		border-bottom: 1px dashed #d8d8d8;
 	}
 
-.review-author {
-	width: 30%;
-}
-
-	.review-author ul {
-		padding: 0;
+	.watch-reviews .review-author p {
 		margin: 0;
 	}
 
-	.review-author li {
-		list-style-type: none;
-		line-height: 1.5em;
-	}
+.review-author {
+	width: 30%;
+}
 
 .review-comment {
 	width: 70%;
@@ -718,12 +738,12 @@ footer span {
 	padding-bottom: 1em;
 }
 
-.review-recommend {
-	padding-top: 1em;
-}
-
 .review-title {
 	font-weight: 700;
+}
+
+.review-recommend {
+	margin-bottom: 0;
 }
 
 /* Watch Review Form */
@@ -740,12 +760,6 @@ footer span {
 .review-submit {
 	text-align: center;
 	margin-top: 1em;
-}
-
-/* Style image */
-.watch-style {
-	padding-bottom: 4em;
-	border-bottom: 1px solid #d8d8d8;
 }
 
 /* Recommended Watches */
@@ -1276,6 +1290,19 @@ footer span {
  		max-width: 100%;
  	}
 
+ 	/* Product Page */
+ 	.watch-img-main {
+ 		padding: 0;
+ 	}
+
+ 	.watch-description {
+	    padding: 1em 0;
+	}
+
+	.watch-lookbook li {
+		margin: 1em 0;
+	}
+
  	/* Lookbooks */
  	.lookbook-entry-item {
  		text-align: center;
@@ -1336,7 +1363,35 @@ footer span {
 	}
 
 	.watch-specs-info {
-		width: 50%
+		width: 50%;
+	}
+
+	.watch-reviews h1 {
+		margin-bottom: 0;
+	}
+
+	.watch-reviews table {
+		margin-top: 0;
+	}
+
+	.watch-reviews td {
+		border: 0;
+		padding: 0;
+	}
+
+	.review-author,
+	.review-comment {
+		width: 100%;
+		display: block;
+	}
+
+	.watch-reviews .review-author {
+		padding-top: 2em;
+	}
+
+	.watch-reviews .review-comment {
+		padding: 1em 0;
+		border-bottom: 1px dashed #d8d8d8;
 	}
 
 	/* Cart */
