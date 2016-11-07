@@ -202,6 +202,15 @@ label {
  	margin-bottom: 0.5em;
 }
 
+.label {
+	font-weight: 700;
+}
+
+.radio-input {
+	display: inline;
+	font-weight: 400;
+}
+
 /* Regular Inputs */
 input[type="text"],
 input[type="number"],
@@ -245,7 +254,7 @@ form input[type="email"] {
 
 form input[type="radio"] {
 	display: inline;
-	margin: 0 0.5em 1.5em 1em;
+	margin: 0 0.5em 0em 1em;
 	padding: 1em;
 }
 
@@ -263,6 +272,10 @@ form input[type="checkmark"] {
 
 .no-padding-left-lg {
 	padding-left: 0;
+}
+
+.no-margin-left {
+	margin-left: 0;
 }
 
 /********************
@@ -1018,6 +1031,10 @@ footer span {
 
 .cart-total table tbody tr:not(:last-child) {
 	border-bottom: 1px solid #d8d8d8;
+}
+
+.cart-total table tbody td {
+	padding: 1em 0;
 }
 
 /* Cart Button Container */
