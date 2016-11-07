@@ -541,6 +541,10 @@ footer span {
 	margin-bottom: 2em;
 }
 
+#lookbook-entry a:hover {
+	text-decoration: none;
+}
+
 .lookbook-title {
 	padding: 1em;
 	position: relative;
