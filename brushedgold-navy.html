@@ -17,30 +17,28 @@
 	</head>
 
 	<body>
-		<!-- Main navigation -->
+		<!-- Main Navigation -->
 		<header>
-			<a href="index.html"><img class="logo-mobile" src="img/icon-d.png" alt="Dexterton Watches Logo"></a>
-			<a href="index.html"><img class="logo" src="img/logo.svg" alt="Dexterton Watches Logo"></a>
 			<nav>
-				<ul>
+				<!-- Desktop/Tablet Nav -->
+				<ul class="main-nav">
+					<li class="nav-logo"><a href="index.html"><img class="logo" src="img/logo.svg" alt="Dexterton Watches Logo"></a></li>
 					<li class="nav-main"><a href="watches.html">Watches</a></li>
 					<li class="nav-main"><a href="lookbook.html">Lookbook</a></li>
 					<li class="nav-main"><a href="contact.html">Contact</a></li>
 					<li class="nav-cart"><a href="cart.html"><img src="img/icon-cart.svg" alt="View your cart"><span>Cart</span></a></li>
-				</ul>
+					<li class="nav-toggle hidden-lg hidden-md"><a>&#9776;</a></li>
+				</ul> <!-- end of .main-nav -->
+
+				<!-- Mobile Nav -->
+				<ul class="mobile-nav">
+					<li><a href="watches.html">Watches</a></li>
+					<li><a href="lookbook.html">Lookbook</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="cart.html">Cart</a></li>
+				</ul> <!-- end of .mobile-nav -->
 			</nav>
-			<!-- Menu dropdown for smaller screens -->
-			<div class="menu-mobile"><img src="img/icon-menu.png" alt="Menu"></div>
 		</header>
-				<div class="menu-mobile-links">
-					<table>
-						<tr><td><a href="watches.html">Watches</a></td></tr>
-						<tr><td><a href="lookbook.html">Lookbook</a></td></tr>
-						<tr><td><a href="contact.html">Contact</a></td></tr>
-						<tr><td><a href="cart.html"><img src="img/icon-cart.svg" alt="View your cart">Cart</a></td></tr>
-					</table>
-				</div> <!-- end of .menu-mobile-links -->
-			<!-- end of menu dropdown for smaller screens -->
 
 		<!-- Breadcrumbs -->
 		<div class="breadcrumbs hidden-sm">
@@ -98,6 +96,12 @@
 							</div> <!-- end of .watch-price -->
 
 							<a class="btn-addtocart" href="cart.html">Add to Cart</a>
+
+							<ul class="watch-lookbook">
+								<li>Lookbooks:</li>
+								<li><a href="lookbook-fall2016.html">Fall 2016</a></li>
+								<li><a href="#">Spring/Summer 2016</a></li>
+							</ul>
 						</div> <!-- end of .watch-description -->
 					</div> <!-- end of .grid-col-4of8 -->
 				</div> <!-- end of .grid-row -->
@@ -167,30 +171,28 @@
 				<table>
 					<tr>
 						<td class="review-author">
-							<ul>
-								<li class="review-rating"><img src="img/review-4stars.svg" alt="Four stars rating"></li>
-								<li>Rob</li>
-								<li>Verified Purchaser</li>
-								<li class="review-recommend"><strong>Yes,</strong> I recommend this product.</li>
-							</ul>
+							<img class="review-rating" src="img/review-4stars.svg" alt="Four stars rating">
+							
+							<p>Rob
+							<br>Verified Purchaser</p>
 						</td>
 						<td class="review-comment">
 							<span class="review-title">Casual and sophisticated</span> &nbsp;&#8226;&nbsp; 2 days ago
 							<p>It's a good everyday watch, but the strap is kind of stiff and won't really stay in place on the top of your wrist. Moves around a lot, and I've had it for 6 months now.</p>
+							<p class="review-recommend"><strong>Yes,</strong> I recommend this product.</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="review-author">
-							<ul>
-								<li class="review-rating"><img src="img/review-5stars.svg" alt="Five stars rating"></li>
-								<li>Tristan</li>
-								<li>Verified Purchaser</li>
-								<li class="review-recommend"><strong>Yes,</strong> I recommend this product.</li>
-							</ul>
+							<img class="review-rating" src="img/review-5stars.svg" alt="Five stars rating">
+							
+							<p>Tristan
+							<br>Verified Purchaser</p>
 						</td>
 						<td class="review-comment">
 							<span class="review-title">Love it!</span> &nbsp;&#8226;&nbsp; 3 months ago
 							<p>I bought this before Christmas and I love it! I bought a few department store watches, but I found that they tarnished within days and I always needed up returning them. Not this watch! I can happily say the navy strap shows no signs of wear yet. I also like that Dexterton has a great variety.</p>
+							<p class="review-recommend"><strong>Yes,</strong> I recommend this product.</p>
 						</td>
 					</tr>
 				</table>
@@ -235,13 +237,6 @@
 					</form>
 				</div> <!-- end of .review-form -->
 			</div>	<!-- end of .wrapper -->
-		</section>
-
-		<!-- Style image -->
-		<section class="watch-style">
-			<div class="wrapper">
-				<img src="img/banners/brushedgold-navy-lookbook.jpg" alt="Dexterton Original Brushed Gold / Navy Watch">
-			</div> <!-- end of .wrapper -->
 		</section>
 
 		<!-- Watch Recommendations -->
