@@ -204,6 +204,7 @@ a:hover {
 	padding: 1em 2em;
 	margin-top: 1em;
 	margin-right: 1em;
+	margin-bottom: 2em;
 
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
