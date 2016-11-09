@@ -12,6 +12,7 @@ body {
 	font-weight: 400;
 	letter-spacing: 0.02em;
 	font-size: 0.85em;
+	min-width: 320px;
 }
 
 section {
@@ -28,7 +29,7 @@ footer .wrapper {
 }
 
 .wrapper {
-	margin: 0 auto;
+	margin: 0 2em;
 	max-width: 70rem;
 	padding: 2em 0;
 	border-bottom: 1px solid #d8d8d8;
@@ -399,6 +400,7 @@ nav {
 				float: right;
 				padding: 0.1em 0 0.15em;
 				font-size: 1.5em;
+				display: none;
 			}
 
 .mobile-nav {
@@ -661,6 +663,9 @@ form input[type="email"] {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 900px) {
+  	.wrapper {
+		margin: 0 1em;
+	}
 
 	nav {
 		padding: 1em 1em 0.6em;
@@ -690,9 +695,14 @@ form input[type="email"] {
 @media only screen 
   and (min-width: 320px) 
   and (max-width: 606px) {
+
 	.main-nav .nav-main,
 	.main-nav .nav-cart {
 		display: none;
+	}
+
+	.main-nav .nav-toggle {
+		display: inline-block;
 	}
 
 	.lookbook-entry-item {
@@ -732,15 +742,24 @@ form input[type="email"] {
 
 }
 
-@media (max-width: 75em) {
-	.wrapper {
-		margin: 0 2em;
-	}
-}
-
 @media only screen 
-  and (min-width: 320px) 
-  and (max-width: 900px) {
+  and (max-width: 320px) {
+  	nav {
+	    padding: 1em 1em 0.6em;
+	}
+
+	.wrapper {
+		margin: 0 1em;
+	}
+
+  	.main-nav .nav-main,
+	.main-nav .nav-cart {
+		display: none;
+	}
+
+	.main-nav .nav-toggle {
+		display: inline-block;
+	}
 	.col-left {
 		padding-right: 0em;
 	}
